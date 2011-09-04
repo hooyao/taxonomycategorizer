@@ -1,0 +1,2960 @@
+<group type="A">
+	<element>
+		<em>
+			<title>General Literature</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+				<group type="a">
+					<element>Biographies/Autobiographies</element>
+					<element>Conference Proceedings</element>
+					<element>General Literary Works</element>
+				</group>
+			</element>
+			<element>
+				<title>Introductory and Survey</title>
+			</element>
+			<element>
+				<title>Reference</title>
+			</element>
+			<element value="13" type="a">
+				<title>Miscellaneous</title>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Hardware</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+			</element>
+			<element>
+				<title>Control Structures and Microprogramming</title>
+				<group start="0">
+					<element>General</element>
+					<element>
+						<title>Control Design Styles</title>
+						<group type="a">
+							<element>Hardwired control</element>
+							<element>Microprogrammed logic arrays</element>
+							<element>Writable control store</element>
+						</group>
+					</element>
+					<element>
+						<title> Control Structure Performance Analysis and Design Aids
+						</title>
+						<group type="a">
+							<element>Automatic synthesis</element>
+							<element>Formal models</element>
+							<element>Simulation</element>
+						</group>
+					</element>
+					<element>
+						<title> Control Structure Reliability, Testing, and
+							Fault-Tolerance						</title>
+						<group type="a">
+							<element>Diagnostics</element>
+							<element>Error-checking</element>
+							<element>Redundant design</element>
+							<element>Test generation</element>
+						</group>
+					</element>
+					<element>
+						<title>Microprogram Design Aids</title>
+						<group type="a">
+							<element>Firmware engineering</element>
+							<element>Languages and compilers</element>
+							<element>Machine-independent microcode generation</element>
+							<element>Optimization</element>
+							<element>Verification</element>
+						</group>
+					</element>
+					<element>
+						<title>Microcode Applications</title>
+						<group type="a">
+							<element>Direct data manipulation</element>
+							<element>Firmware support of operating systems/instruction sets
+							</element>
+							<element>Instruction set interpretation</element>
+							<element>Peripheral control</element>
+							<element>Special-purpose</element>
+						</group>
+					</element>
+					<element value="13" type="a">
+						Miscellaneous
+						<group type="a">
+							<element>Emerging technologies</element>
+						</group>
+					</element>
+				</group>
+			</element>
+			<element>
+				<title>Arithmetic and Logic Structures</title>
+			</element>
+			<element
+				style="list-style-type: none; list-style-image: none; list-style-position: outside;">
+				<group start="0">
+					<element>General</element>
+					<element>
+						<title>Design Styles</title>
+						<group type="a">
+							<element>Calculator</element>
+							<element>Parallel</element>
+							<element>Pipeline</element>
+							<element>Multiple valued logic</element>
+						</group>
+					</element>
+					<element>
+						<title>Performance Analysis and Design Aids</title>
+						<group type="a">
+							<element>Simulation</element>
+							<element>Verification</element>
+							<element>Worst-case analysis</element>
+						</group>
+					</element>
+					<element>
+						<title>Reliability, Testing, and Fault-Tolerance</title>
+						<group type="a">
+							<element>Diagnostics</element>
+							<element>Error-checking</element>
+							<element>Redundant design</element>
+							<element>Test generation</element>
+						</group>
+					</element>
+					<element>
+						<title>High-Speed Arithmetic</title>
+						<group type="a">
+							<element>Algorithms</element>
+							<element>Cost/performance</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Memory Structures</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Semiconductor Memories</title>
+						<group type="a">
+							<element>DRAM</element>
+							<element>ROM</element>
+							<element>SRAM</element>
+						</group>
+					</element>
+					<element>
+						<title>Design Styles</title>
+						<group type="a">
+							<element>Associative memories</element>
+							<element>Cache memories</element>
+							<element>Interleaved memories</element>
+							<element>Mass storage</element>
+							<element>Primary memory</element>
+							<element>Sequential-access memory</element>
+							<element>Shared memory</element>
+							<element>Virtual memory</element>
+						</group>
+					</element>
+					<element>
+						<title>Performance Analysis and Design Aids</title>
+						<group type="a">
+							<element>Formal models</element>
+							<element>Simulation</element>
+							<element>Worst-case analysis</element>
+						</group>
+					</element>
+					<element>
+						<title>Reliability, Testing, and Fault-Tolerance</title>
+						<group type="a">
+							<element>Diagnostics</element>
+							<element>Error-checking</element>
+							<element>Redundant design</element>
+							<element>Test generation</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>I/O and Data Communications</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Data Communications Devices</title>
+						<group type="a">
+							<element>Processors</element>
+							<element>Receivers</element>
+							<element>Transmitters</element>
+						</group>
+					</element>
+					<element>
+						<title>Input/Output Devices</title>
+						<group type="a">
+							<element>Channels and controllers</element>
+							<element>Data terminals and printers</element>
+							<element>Image display</element>
+							<element>Voice</element>
+						</group>
+					</element>
+					<element>
+						<title>Interconnections (Subsystems)</title>
+						<group type="a">
+							<element>Asynchronous/synchronous operation</element>
+							<element>Fiber optics</element>
+							<element>Interfaces</element>
+							<element>Parallel I/O</element>
+							<element>Physical structures</element>
+							<element>Topology</element>
+							<element>Web technologies</element>
+							<element>Wireless systems</element>
+						</group>
+					</element>
+					<element>
+						<title>Performance Analysis and Design Aids</title>
+						<group type="a">
+							<element>Formal models</element>
+							<element>Simulation</element>
+							<element>Verification</element>
+							<element>Worst-case analysis</element>
+						</group>
+					</element>
+					<element>
+						<title>Reliability, Testing, and Fault-Tolerance</title>
+						<group type="a">
+							<element>Built-in tests</element>
+							<element>Diagnostics</element>
+							<element>Error-checking</element>
+							<element>Hardware reliability</element>
+							<element>Redundant design</element>
+							<element>Test generation</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Register-Transfer-Level Implementation</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Design</title>
+						<group type="a">
+							<element>Arithmetic and logic units</element>
+							<element>Control design</element>
+							<element>Data-path design</element>
+							<element>Memory design</element>
+							<element>Styles</element>
+						</group>
+					</element>
+					<element>
+						<title>Design Aids</title>
+						<group type="a">
+							<element>Automatic synthesis</element>
+							<element>Hardware description languages</element>
+							<element>Optimization</element>
+							<element>Simulation</element>
+							<element>Verification</element>
+						</group>
+					</element>
+					<element>
+						<title>Reliability and Testing</title>
+						<group type="a">
+							<element>Built-in tests</element>
+							<element>Error-checking</element>
+							<element>Redundant design</element>
+							<element>Test generation</element>
+							<element>Testability</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Logic Design</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Design Styles</title>
+						<group type="a">
+							<element>Cellular arrays and automata</element>
+							<element>Combinational logic</element>
+							<element>Logic arrays</element>
+							<element>Memory control and access</element>
+							<element>Memory used as logic</element>
+							<element>Parallel circuits</element>
+							<element>Sequential circuits</element>
+						</group>
+					</element>
+					<element>
+						<title>Reliability and Testing</title>
+						<group type="a">
+							<element>Built-in tests</element>
+							<element>Error-checking</element>
+							<element>Redundant design</element>
+							<element>Test generation</element>
+							<element>Testability</element>
+						</group>
+					</element>
+					<element>
+						<title>Design Aids</title>
+						<group type="a">
+							<element>Automatic synthesis</element>
+							<element>Hardware description languages</element>
+							<element>Optimization</element>
+							<element>Simulation</element>
+							<element>Switching theory</element>
+							<element>Verification</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Integrated Circuits</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Types and Design Styles</title>
+						<group type="a">
+							<element>Advanced technologies</element>
+							<element>Algorithms implemented in hardware</element>
+							<element>Gate arrays</element>
+							<element>Input/output circuits</element>
+							<element>Memory technologies</element>
+							<element>Microprocessors and microcomputers</element>
+							<element>Network connectivity chips</element>
+							<element>Standard cells</element>
+							<element>VLSI</element>
+						</group>
+					</element>
+					<element>
+						<title>Design Aids</title>
+						<group type="a">
+							<element>Graphics</element>
+							<element>Layout</element>
+							<element>Placement and routing</element>
+							<element>Simulation</element>
+							<element>Verification</element>
+						</group>
+					</element>
+					<element>
+						<title>Reliability and Testing</title>
+						<group type="a">
+							<element>Built-in tests</element>
+							<element>Error-checking</element>
+							<element>Fault injection</element>
+							<element>Redundant design</element>
+							<element>Test generation</element>
+							<element>Testability</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Performance and Reliability</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>Reliability, Testing, and Fault-Tolerance</element>
+					<element>Performance Analysis and Design Aids</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Power Management</title>
+				<group>
+					<element>Low-power design</element>
+					<element>Energy-aware systems</element>
+				</group>
+			</element>
+			<element value="13" type="a">
+				<title>Miscellaneous</title>
+				<group type="a">
+					<element>Design management</element>
+				</group>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Computer Systems Organization</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+				<group type="a">
+					<element>Emerging technologies</element>
+					<element>Hardware/software interfaces</element>
+					<element>Instruction set design</element>
+					<element>Modeling of computer architecture</element>
+					<element>System architectures, integration and modeling</element>
+					<element>Systems specification methodology</element>
+				</group>
+			</element>
+			<element>
+				<title>Processor Architectures</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Single Data Stream Architectures</title>
+						<group type="a">
+							<element>MISD processors</element>
+							<element>Pipeline processors</element>
+							<element>RISC/CISC, VLIW architectures</element>
+							<element>SISD processors</element>
+							<element>Von Neumann architectures</element>
+						</group>
+					</element>
+					<element>
+						<title> Multiple Data Stream Architectures (Multiprocessors)
+						</title>
+						<group type="a">
+							<element>Array and vector processors</element>
+							<element>Associative processors</element>
+							<element>Connection machines</element>
+							<element>Interconnection architectures</element>
+							<element>Load balancing and task assignment</element>
+							<element>MIMD processors</element>
+							<element>Parallel processors</element>
+							<element>Pipeline processors</element>
+							<element>TC scheduling and synchronization</element>
+							<element>SIMD processors</element>
+						</group>
+					</element>
+					<element>
+						<title>Other Architecture Styles</title>
+						<group type="a">
+							<element>Adaptable architectures</element>
+							<element>Analog computers</element>
+							<element>Capability architectures</element>
+							<element>Cellular architecture</element>
+							<element>Dataflow architectures</element>
+							<element>Heterogeneous (hybrid) systems</element>
+							<element>High-level language architectures</element>
+							<element>Multithreaded processors</element>
+							<element>Neural nets</element>
+							<element>Neurocomputers</element>
+							<element>Pipeline processors</element>
+							<element>Stack-oriented processors</element>
+						</group>
+					</element>
+					<element>
+						<title>Parallel Architectures</title>
+						<group type="a">
+							<element>Distributed architectures</element>
+							<element>Mobile processors</element>
+							<element>Real-time distributed</element>
+							<element>Scheduling and task partitioning</element>
+						</group>
+					</element>
+					<element value="13" type="a">
+						Miscellaneous
+						<group type="a">
+							<element>Analog computers</element>
+							<element>Hybrid systems</element>
+						</group>
+					</element>
+				</group>
+			</element>
+			<element>
+				<title>Communication/Networking and Information Technology</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Architecture</element>
+							<element>Data communications</element>
+							<element>Emerging technologies</element>
+							<element>Infrastructure protection</element>
+							<element>Interprocessor communications</element>
+							<element>Network-level security and protection</element>
+							<element>OSI reference model</element>
+							<element>Standards</element>
+						</group>
+					</element>
+					<element>
+						<title>Network Architecture and Design</title>
+						<group type="a">
+							<element>ATM</element>
+							<element>Centralized networks</element>
+							<element>Circuit-switching networks</element>
+							<element>Distributed networks</element>
+							<element>Frame relay networks</element>
+							<element>ISDN</element>
+							<element>Network communications</element>
+							<element>Network topology</element>
+							<element>Packet-switching networks</element>
+							<element>Store and forward networks</element>
+							<element>Wireless communication</element>
+						</group>
+					</element>
+					<element>
+						<title>Network Protocols</title>
+						<group type="a">
+							<element>Applications</element>
+							<element>Protocol architecture</element>
+							<element>Protocol verification</element>
+							<element>Routing protocols</element>
+						</group>
+					</element>
+					<element>
+						<title>Network Operations</title>
+						<group type="a">
+							<element>Network management</element>
+							<element>Network monitoring</element>
+							<element>Public networks</element>
+						</group>
+					</element>
+					<element>
+						<title>Distributed Systems</title>
+						<group type="a">
+							<element>Client/server</element>
+							<element>Distributed applications</element>
+							<element>Distributed databases</element>
+							<element>Network operating systems</element>
+						</group>
+					</element>
+					<element>
+						<title>Local-Area Networks</title>
+						<group type="a">
+							<element>Access schemes</element>
+							<element>Buses</element>
+							<element>Ethernet</element>
+							<element>High-speed</element>
+							<element>Internet</element>
+							<element>Token rings</element>
+						</group>
+					</element>
+					<element>
+						<title>Internetworking</title>
+						<group type="a">
+							<element>Bridges</element>
+							<element>Gateways</element>
+							<element>Multicast</element>
+							<element>Protocols</element>
+							<element>Routers</element>
+							<element>Standards</element>
+						</group>
+					</element>
+					<element>
+						<title>Wide-area networks</title>
+						<group type="a">
+							<element>CATV</element>
+							<element>Optical fiber</element>
+							<element>Sensor networks</element>
+							<element>Telephony</element>
+							<element>Wireless</element>
+						</group>
+					</element>
+					<element>
+						<title>Mobile Computing</title>
+						<group type="a">
+							<element>Algorithm/protocol design and analysis</element>
+							<element>Architectures</element>
+							<element>Mobile communication systems</element>
+							<element>Mobile environments</element>
+							<element>Support services</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Special-Purpose and Application-Based Systems</title>
+				<group type="a">
+					<element>Application studies resulting in better multiple-processor
+						systems					</element>
+					<element>Microprocessor/microcomputer applications</element>
+					<element>Process control systems</element>
+					<element>Real-time and embedded systems</element>
+					<element>Reconfigurable hardware</element>
+					<element>Signal processing systems</element>
+					<element>Smartcards</element>
+					<element>Ubiquitous computing</element>
+				</group>
+			</element>
+			<element>
+				<title>Performance of Systems</title>
+				<group type="a">
+					<element>Design studies</element>
+					<element>Fault tolerance</element>
+					<element>Measurement techniques</element>
+					<element>Modeling techniques</element>
+					<element>Performance attributes</element>
+					<element>Reliability, availability, and serviceability</element>
+					<element>Measurement, evaluation, modeling, simulation of
+						multiple-processor systems					</element>
+				</group>
+			</element>
+			<element>
+				<title>Computer System Implementation</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Large and Medium ("Mainframe")</title>
+						<group type="a">
+							<element>Super (very large) computers</element>
+						</group>
+					</element>
+					<element>Minicomputers</element>
+					<element>
+						<title>Microcomputers</title>
+						<group type="a">
+							<element>Microprocessors</element>
+							<element>Personal computers</element>
+							<element>Portable devices</element>
+							<element>Workstations</element>
+						</group>
+					</element>
+					<element>
+						<title>VLSI Systems</title>
+						<group type="a">
+							<element>Impact of VLSI on system design</element>
+						</group>
+					</element>
+					<element>
+						<title>Servers</title>
+						<group type="a">
+							<element>Web server</element>
+							<element>Web browser</element>
+						</group>
+					</element>
+					<element>Multiprocessor Systems</element>
+					<element>Wearable Computers</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Software/Software Engineering</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+			</element>
+			<element>
+				<title>Programming Techniques</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>Applicative (Functional) Programming</element>
+					<element>Automatic Programming</element>
+					<element>Concurrent Programming</element>
+					<element>Sequential Programming</element>
+					<element>Object-Oriented Programming</element>
+					<element>Logic Programming</element>
+					<element>Visual Programming</element>
+					<element>Distributed programming</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Software Engineering</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Protection mechanisms</element>
+							<element>Software psychology</element>
+							<element>Software engineering for Internet projects</element>
+							<element>Standards</element>
+							<element>Surveys of historical development of one particular area
+							</element>
+						</group>
+					</element>
+					<element>
+						<title>Requirements/Specifications</title>
+						<group type="a">
+							<element>Analysis</element>
+							<element>Elicitation methods</element>
+							<element>Languages</element>
+							<element>Management</element>
+							<element>Methodologies</element>
+							<element>Process</element>
+							<element>Specification</element>
+							<element>Tools</element>
+							<element>Validation</element>
+						</group>
+					</element>
+					<element>
+						<title>Design Tools and Techniques</title>
+						<group type="a">
+							<element>CASE</element>
+							<element>Decision tables</element>
+							<element>Distributed/Internet based software engineering tools
+								and techniques							</element>
+							<element>Modules and interfaces</element>
+							<element>Programmer workbench</element>
+						</group>
+					</element>
+					<element>
+						<title>Coding Tools and Techniques</title>
+						<group type="a">
+							<element>Object-oriented programming</element>
+							<element>Pretty printers</element>
+							<element>Program editors</element>
+							<element>Reentrant code</element>
+							<element>Standards</element>
+							<element>Structured programming</element>
+							<element>Top-down programming</element>
+						</group>
+					</element>
+					<element>
+						<title>Software/Program Verification</title>
+						<group type="a">
+							<element>Assertion checkers, assertion languages, performance
+							</element>
+							<element>Class invariants</element>
+							<element>Correctness proofs</element>
+							<element>Formal methods</element>
+							<element>Model checking</element>
+							<element>Programming by contract</element>
+							<element>Reliability</element>
+							<element>Statistical methods</element>
+							<element>Validation</element>
+						</group>
+					</element>
+					<element>
+						<title>Testing and Debugging</title>
+						<group type="a">
+							<element>Code inspections and walkthroughs</element>
+							<element>Debugging aids</element>
+							<element>Diagnostics</element>
+							<element>Distributed debugging</element>
+							<element>Dumps</element>
+							<element>Error handling and recovery</element>
+							<element>Monitors</element>
+							<element>Reliability</element>
+							<element>Symbolic execution</element>
+							<element>Test levels</element>
+							<element>Testing strategies</element>
+							<element>Test design</element>
+							<element>Test coverage of code</element>
+							<element>Test coverage of specifications</element>
+							<element>Test execution</element>
+							<element>Test documentation</element>
+							<element>Test management</element>
+							<element>Testing tools</element>
+							<element>Tracing</element>
+							<element>Usability testing</element>
+						</group>
+					</element>
+					<element>
+						<title>Programming Environments/Construction Tools</title>
+						<group type="a">
+							<element>Environments for multiple-processor systems</element>
+							<element>Graphical environments</element>
+							<element>Integrated environments</element>
+							<element>Interactive environments</element>
+							<element>Programmer workbench</element>
+						</group>
+					</element>
+					<element>
+						<title>Distribution, Maintenance, and Enhancement</title>
+						<group type="a">
+							<element>Conversion from sequential to parallel forms</element>
+							<element>Corrections</element>
+							<element>Documentation</element>
+							<element>Enhancement</element>
+							<element>Evolving Internet applications</element>
+							<element>Extensibility</element>
+							<element>Maintainability</element>
+							<element>Maintenance management</element>
+							<element>Maintenance measurement</element>
+							<element>Maintenance planning</element>
+							<element>Maintenance process</element>
+							<element>Portability</element>
+							<element>Restructuring, reverse engineering, and reengineering
+							</element>
+							<element>Version control</element>
+						</group>
+					</element>
+					<element>
+						<title>Metrics/Measurement</title>
+						<group type="a">
+							<element>Complexity measures</element>
+							<element>Performance measures</element>
+							<element>Process metrics</element>
+							<element>Product metrics</element>
+							<element>Software science</element>
+						</group>
+					</element>
+					<element>
+						<title>Management</title>
+						<group type="a">
+							<element>Copyrights</element>
+							<element>Cost estimation</element>
+							<element>Enactment</element>
+							<element>Initiation and scope definition</element>
+							<element>Organizational management and coordination</element>
+							<element>Planning</element>
+							<element>Postclosure activities</element>
+							<element>Productivity</element>
+							<element>Programming teams</element>
+							<element>Project close out</element>
+							<element>Project control &amp; modeling</element>
+							<element>Review and evaluation</element>
+							<element>Risk management</element>
+							<element>Schedule and organizational issues</element>
+							<element>Software acquisition</element>
+							<element>Time estimation</element>
+						</group>
+					</element>
+					<element>
+						<title>Design</title>
+						<group type="a">
+							<element>Design concepts</element>
+							<element>Design notations and documentation</element>
+							<element>Representation</element>
+							<element>State diagrams</element>
+							<element>Evolutionary prototyping</element>
+							<element>Methodologies</element>
+							<element>Object-oriented design methods</element>
+							<element>Quality analysis and evaluation</element>
+							<element>Rapid prototyping</element>
+							<element>Representation</element>
+						</group>
+					</element>
+					<element>
+						<title>Software Architectures</title>
+						<group type="a">
+							<element>Data abstraction</element>
+							<element>Domain-specific architectures</element>
+							<element>Information hiding</element>
+							<element>Languages</element>
+							<element>Patterns</element>
+						</group>
+					</element>
+					<element>
+						<title>Interoperability</title>
+						<group type="a">
+							<element>Data mapping</element>
+							<element>Distributed objects</element>
+							<element>Interface definition languages</element>
+						</group>
+					</element>
+					<element>
+						<title>Reusable Software</title>
+						<group type="a">
+							<element>Domain engineering</element>
+							<element>Reusable libraries</element>
+							<element>Reuse models</element>
+						</group>
+					</element>
+					<element>
+						<title>Human Factors in Software Design</title>
+						<group type="a">
+							<element>User interfaces</element>
+						</group>
+					</element>
+					<element>Software and System Safety</element>
+					<element>
+						<title>Configuration Management</title>
+						<group type="a">
+							<element>Configuration auditing</element>
+							<element>Configuration control</element>
+							<element>Configuration identification</element>
+							<element>Configuration management process</element>
+							<element>Configuration status accounting</element>
+							<element>Software release management and delivery</element>
+						</group>
+					</element>
+					<element>
+						<title>Software Construction</title>
+						<group type="a">
+							<element>Construction planning</element>
+							<element>Code design</element>
+							<element>Code tuning</element>
+							<element>Data design and management</element>
+							<element>Error processing</element>
+							<element>Source code organization</element>
+							<element>Code documentation</element>
+							<element>Construction QA</element>
+							<element>Programming paradigms</element>
+							<element>System integration and implementation</element>
+						</group>
+					</element>
+					<element>
+						<title>Software Engineering Process</title>
+						<group type="a">
+							<element>Life cycle</element>
+							<element>Process infrastructure</element>
+							<element>Process measurement</element>
+							<element>Process definition</element>
+							<element>Software process models</element>
+							<element>Qualitative process analysis</element>
+							<element>Process implementation and change</element>
+						</group>
+					</element>
+					<element>
+						<title>Software Quality/SQA</title>
+						<group type="a">
+							<element>Quality concepts</element>
+							<element>Planning for SQA and V&amp;V</element>
+							<element>Methods for SQA and V&amp;V</element>
+							<element>Measurement applied to SQA and V&amp;V</element>
+						</group>
+					</element>
+					<element value="13" type="a">
+						Miscellaneous
+						<group type="a">
+							<element>Software libraries</element>
+							<element>System issues</element>
+						</group>
+					</element>
+				</group>
+			</element>
+			<element>
+				<title>Programming Languages</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Standards</element>
+						</group>
+					</element>
+					<element>
+						<title>Formal Definitions and Theory</title>
+						<group type="a">
+							<element>Semantics</element>
+							<element>Syntax</element>
+						</group>
+					</element>
+					<element>
+						<title>Language Classifications</title>
+						<group type="a">
+							<element>Applicative (functional) languages</element>
+							<element>Componentware</element>
+							<element>Compression technologies</element>
+							<element>Concurrent, distributed, and parallel languages
+							</element>
+							<element>Constraint and logic languages</element>
+							<element>Dataflow languages</element>
+							<element>Design languages</element>
+							<element>Development tools</element>
+							<element>Extensible languages</element>
+							<element>Java</element>
+							<element>Macro and assembly languages</element>
+							<element>Microprogramming languages</element>
+							<element>Multiparadigm languages</element>
+							<element>Nondeterministic languages</element>
+							<element>Nonprocedural languages</element>
+							<element>Object-oriented languages</element>
+							<element>Query languages</element>
+							<element>Scripting languages</element>
+							<element>Specialized application languages</element>
+							<element>Very high-level languages</element>
+						</group>
+					</element>
+					<element>
+						<title>Language Constructs and Features</title>
+						<group type="a">
+							<element>Abstract data types</element>
+							<element>Classes and objects</element>
+							<element>Concurrent programming structures</element>
+							<element>Constraints</element>
+							<element>Control structures</element>
+							<element>Coroutines</element>
+							<element>Data types and structures</element>
+							<element>Distributed objects, components, containers</element>
+							<element>Dynamic storage management</element>
+							<element>Frameworks</element>
+							<element>Inheritance</element>
+							<element>Input/output</element>
+							<element>Modules, packages</element>
+							<element>Patterns</element>
+							<element>Polymorphism</element>
+							<element>Procedures, functions, and subroutines</element>
+							<element>Recursion</element>
+						</group>
+					</element>
+					<element>
+						<title>Processors</title>
+						<group type="a">
+							<element>Code generation</element>
+							<element>Compilers</element>
+							<element>Debuggers</element>
+							<element>Incremental compilers</element>
+							<element>Interpreters</element>
+							<element>Memory management</element>
+							<element>Optimization</element>
+							<element>Parsing</element>
+							<element>Preprocessors</element>
+							<element>Retargetable compilers</element>
+							<element>Runtime environments</element>
+							<element>Translator writing systems and compile</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Operating Systems</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Process Management</title>
+						<group type="a">
+							<element>Concurrency</element>
+							<element>Deadlocks</element>
+							<element>Multiprocessing/multiprogramming/multitasking</element>
+							<element>Mutual exclusion</element>
+							<element>Scheduling</element>
+							<element>Synchronization</element>
+							<element>Threads</element>
+						</group>
+					</element>
+					<element>
+						<title>Storage Management</title>
+						<group type="a">
+							<element>Allocation/deallocation strategies</element>
+							<element>Distributed memories</element>
+							<element>Garbage collection</element>
+							<element>Main memory</element>
+							<element>Secondary storage</element>
+							<element>Segmentation</element>
+							<element>Storage hierarchies</element>
+							<element>Swapping</element>
+							<element>Virtual memory</element>
+						</group>
+					</element>
+					<element>
+						<title>File Systems Management</title>
+						<group type="a">
+							<element>Access methods</element>
+							<element>Directory structures</element>
+							<element>Distributed file systems</element>
+							<element>File organization</element>
+							<element>Maintenance</element>
+						</group>
+					</element>
+					<element>
+						<title>Communications Management</title>
+						<group type="a">
+							<element>Buffering</element>
+							<element>Input/output</element>
+							<element>Message sending</element>
+							<element>Network communication</element>
+							<element>Terminal management</element>
+						</group>
+					</element>
+					<element>
+						<title>Reliability</title>
+						<group type="a">
+							<element>Backup procedures</element>
+							<element>Checkpoint/restart</element>
+							<element>Disconnected operation</element>
+							<element>Fault-tolerance</element>
+							<element>High availability</element>
+							<element>Verification</element>
+						</group>
+					</element>
+					<element>
+						<title>Security and Privacy Protection</title>
+						<group type="a">
+							<element>Access controls</element>
+							<element>Authentication</element>
+							<element>Cryptographic controls</element>
+							<element>Information flow controls</element>
+							<element>Invasive software</element>
+							<element>Security kernels</element>
+							<element>Verification</element>
+						</group>
+					</element>
+					<element>
+						<title>Organization and Design</title>
+						<group type="a">
+							<element>Batch processing systems</element>
+							<element>Distributed systems</element>
+							<element>Hierarchical design</element>
+							<element>Interactive systems</element>
+							<element>Real-time systems and embedded systems</element>
+							<element>Parallel systems</element>
+						</group>
+					</element>
+					<element>
+						<title>Performance</title>
+						<group type="a">
+							<element>Measurements</element>
+							<element>Modeling and prediction</element>
+							<element>Monitors</element>
+							<element>Operational analysis</element>
+							<element>Queuing theory</element>
+							<element>Simulation</element>
+							<element>Stochastic analysis</element>
+						</group>
+					</element>
+					<element>
+						<title>Systems Programs and Utilities</title>
+						<group type="a">
+							<element>Command and control languages</element>
+							<element>Linkers</element>
+							<element>Loaders</element>
+							<element>Window managers</element>
+						</group>
+					</element>
+					<element>
+						<title>Support for Adaptation</title>
+						<group type="a">
+							<element>Application-aware adaptation</element>
+							<element>Application-transparent adaptation</element>
+							<element>Fidelity, agility, and stability</element>
+							<element>Low-bandwidth operation</element>
+							<element>Transcoding</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Data</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+				<group type="a">
+					<element>Data communications aspects</element>
+					<element>Data dependencies</element>
+					<element>Data encryption</element>
+					<element>File organization</element>
+					<element>Knowledge and data engineering tools and techniques
+					</element>
+					<element>System applications and experience</element>
+				</group>
+			</element>
+			<element>
+				<title>Data Structures</title>
+				<group type="a">
+					<element>Arrays</element>
+					<element>Distributed data structures</element>
+					<element>Distributed file systems</element>
+					<element>Graphs and networks</element>
+					<element>Lists, stacks, and queues</element>
+					<element>Records</element>
+					<element>Tables</element>
+					<element>Trees</element>
+				</group>
+			</element>
+			<element>
+				<title>Data Storage Representations</title>
+				<group type="a">
+					<element>Composite structures</element>
+					<element>Contiguous representations</element>
+					<element>Hash-table representations</element>
+					<element>Linked representations</element>
+					<element>Object representation</element>
+					<element>Primitive data items</element>
+				</group>
+			</element>
+			<element>
+				<title>Data Encryption</title>
+				<group type="a">
+					<element>Code breaking</element>
+					<element>DES</element>
+					<element>Public key cryptosystems</element>
+					<element>Standards</element>
+				</group>
+			</element>
+			<element>
+				<title>Coding and Information Theory</title>
+				<group type="a">
+					<element>Data compaction and compression</element>
+					<element>Error control codes</element>
+					<element>Normal models of communication</element>
+					<element>Nonsecret encoding schemes</element>
+				</group>
+			</element>
+			<element>
+				<title>Files</title>
+				<group type="a">
+					<element>Backup/recovery</element>
+					<element>Optimization</element>
+					<element>Organization/structure</element>
+					<element>Sorting/searching</element>
+				</group>
+			</element>
+			<element value="13" type="a">
+				<title>Miscellaneous</title>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Theory of Computation</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+			</element>
+			<element>
+				<title>Computation by Abstract Devices</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Models of Computation</title>
+						<group type="a">
+							<element>Automata</element>
+							<element>Bounded-action devices</element>
+							<element>Computability theory</element>
+							<element>Relations between models</element>
+							<element>Self-modifying machines</element>
+							<element>Unbounded-action devices</element>
+						</group>
+					</element>
+					<element>
+						<title>Modes of Computation</title>
+						<group type="a">
+							<element>Alternation and nondeterminism</element>
+							<element>Interactive and reactive computation</element>
+							<element>Online computation</element>
+							<element>Parallelism and concurrency</element>
+							<element>Probabilistic computation</element>
+							<element>Relations among modes</element>
+							<element>Relativized computation</element>
+						</group>
+					</element>
+					<element>
+						<title>Complexity Measures and Classes</title>
+						<group type="a">
+							<element>Complexity hierarchies</element>
+							<element>Machine-independent complexity</element>
+							<element>Reducibility and completeness</element>
+							<element>Relations among complexity classes</element>
+							<element>Relations among complexity measures</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Analysis of Algorithms and Problem Complexity</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Numerical Algorithms and Problems</title>
+						<group type="a">
+							<element>Computation of transforms</element>
+							<element>Computations in finite fields</element>
+							<element>Computations on matrices</element>
+							<element>Computations on polynomials</element>
+							<element>Number-theoretic computations</element>
+						</group>
+					</element>
+					<element>
+						<title>Nonnumerical Algorithms and Problems</title>
+						<group type="a">
+							<element>Complexity of proof procedures</element>
+							<element>Computations on discrete structures</element>
+							<element>Geometrical problems and computations</element>
+							<element>Pattern matching</element>
+							<element>Routing and layout</element>
+							<element>Sequencing and scheduling</element>
+						</group>
+					</element>
+					<element>Sorting and searching</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Logics and Meanings of Programs</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title> Specifying and Verifying and Reasoning about Programs
+						</title>
+						<group type="a">
+							<element>Assertions</element>
+							<element>Invariants</element>
+							<element>Logics of programs</element>
+							<element>Mechanical verification</element>
+							<element>Pre- and post-conditions</element>
+							<element>Specification techniques</element>
+						</group>
+					</element>
+					<element>
+						<title>Semantics of Programming Languages</title>
+						<group type="a">
+							<element>Algebraic approaches to semantics</element>
+							<element>Denotational semantics</element>
+							<element>Operational semantics</element>
+							<element>Partial evaluation</element>
+							<element>Process models</element>
+							<element>Program analysis</element>
+						</group>
+					</element>
+					<element>
+						<title>Studies of Program Constructs</title>
+						<group type="a">
+							<element>Control primitives</element>
+							<element>Functional constructs</element>
+							<element>Object-oriented constructs</element>
+							<element>Program and recursion schemes</element>
+							<element>Type structure</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Mathematical Logic and Formal Languages</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Mathematical Logic</title>
+						<group type="a">
+							<element>Computability theory</element>
+							<element>Computational logic</element>
+							<element>Lambda calculus and related systems</element>
+							<element>Logic and constraint programming</element>
+							<element>Mechanical theorem proving</element>
+							<element>Modal logic</element>
+							<element>Model theory</element>
+							<element>Proof theory</element>
+							<element>Recursive function theory</element>
+							<element>Set theory</element>
+							<element>Temporal logic</element>
+						</group>
+					</element>
+					<element>
+						<title>Grammars and Other Rewriting Systems</title>
+						<group type="a">
+							<element>Decision problems</element>
+							<element>Grammar types</element>
+							<element>Parallel rewriting systems</element>
+							<element>Parsing</element>
+							<element>Thue systems</element>
+						</group>
+					</element>
+					<element>
+						<title>Formal Languages</title>
+						<group type="a">
+							<element>Algebraic language theory</element>
+							<element>Classes defined by grammars or automata</element>
+							<element>Classes defined by resource-bounded automata</element>
+							<element>Decision problems</element>
+							<element>Operations on languages</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element value="13" type="a">
+				<title>Miscellaneous</title>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Mathematics of Computing</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+			</element>
+			<element>
+				<title>Numerical Analysis</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Computer arithmetic</element>
+							<element>Conditioning and ill-conditioning</element>
+							<element>Error analysis</element>
+							<element>Interval arithmetic</element>
+							<element>Multiple precision arithmetic</element>
+							<element>Numerical algorithms</element>
+							<element>Parallel algorithms</element>
+							<element>Stability and instability</element>
+						</group>
+					</element>
+					<element>
+						<title>Interpolation</title>
+						<group type="a">
+							<element>Difference formulas</element>
+							<element>Extrapolation</element>
+							<element>Interpolation formulas</element>
+							<element>Smoothing</element>
+							<element>Spline and piecewise polynomial interpolation</element>
+						</group>
+					</element>
+					<element>
+						<title>Approximation</title>
+						<group type="a">
+							<element>Approximation of surfaces and contours</element>
+							<element>Chebyshev approximation and theory</element>
+							<element>Elementary function approximation</element>
+							<element>Fast Fourier transforms</element>
+							<element>Least squares approximation</element>
+							<element>Linear approximation</element>
+							<element>Minimax approximation and algorithms</element>
+							<element>Nonlinear approximation</element>
+							<element>Rational approximation</element>
+							<element>Special function approximations</element>
+							<element>Spline and piecewise polynomial approximation</element>
+							<element>Wavelets and fractals</element>
+						</group>
+					</element>
+					<element>
+						<title>Numerical Linear Algebra</title>
+						<group type="a">
+							<element>Conditioning</element>
+							<element>Determinants</element>
+							<element>Eigenvalues and eigenvectors</element>
+							<element>Error analysis</element>
+							<element>Linear systems</element>
+							<element>Matrix inversion</element>
+							<element>Pseudoinverses</element>
+							<element>Singular value decomposition</element>
+							<element>Sparse, structured, and very large systems</element>
+						</group>
+					</element>
+					<element>
+						<title>Quadrature and Numerical Differentiation</title>
+						<group type="a">
+							<element>Adaptive and iterative quadrature</element>
+							<element>Automatic differentiation</element>
+							<element>Equal interval integration</element>
+							<element>Error analysis</element>
+							<element>Finite difference methods</element>
+							<element>Gaussian quadrature</element>
+							<element>Iterative methods</element>
+							<element>Multidimensional (multiple) quadrature</element>
+						</group>
+					</element>
+					<element>
+						<title>Roots of Nonlinear Equations</title>
+						<group type="a">
+							<element>Continuation (homotopy) methods</element>
+							<element>Convergence</element>
+							<element>Error analysis</element>
+							<element>Iterative methods</element>
+							<element>Polynomials, methods for</element>
+							<element>Systems of equations</element>
+						</group>
+					</element>
+					<element>
+						<title>Optimization</title>
+						<group type="a">
+							<element>Constrained optimization</element>
+							<element>Convex programming</element>
+							<element>Global optimization</element>
+							<element>Gradient methods</element>
+							<element>Inter programming</element>
+							<element>Least squares methods</element>
+							<element>Linear programming</element>
+							<element>Nonlinear programming</element>
+							<element>Quadratic programming methods</element>
+							<element>Simulated annealing</element>
+							<element>Stochastic programming</element>
+							<element>Unconstrained optimization</element>
+						</group>
+					</element>
+					<element>
+						<title>Ordinary Differential Equations</title>
+						<group type="a">
+							<element>Boundary value problems</element>
+							<element>Chaotic systems</element>
+							<element>Convergence and stability</element>
+							<element>Differential-algebraic equations</element>
+							<element>Error analysis</element>
+							<element>Finite difference methods</element>
+							<element>Initial value problems</element>
+							<element>Multistep and multivalue methods</element>
+							<element>One-step (single step) methods</element>
+							<element>Stiff equations</element>
+						</group>
+					</element>
+					<element>
+						<title>Partial Differential Equations</title>
+						<group type="a">
+							<element>Domain decomposition methods</element>
+							<element>Elliptic equations</element>
+							<element>Finite difference methods</element>
+							<element>Finite element methods</element>
+							<element>Finite volume methods</element>
+							<element>Hyperbolic equations</element>
+							<element>Inverse problems</element>
+							<element>Iterative solution techniques</element>
+							<element>Method of lines</element>
+							<element>Multigrid and multilevel methods</element>
+							<element>Parabolic equations</element>
+							<element>Spectral methods</element>
+						</group>
+					</element>
+					<element>
+						<title>Integral Equations</title>
+						<group type="a">
+							<element>Delay equations</element>
+							<element>Fredholm equation</element>
+							<element>Intro-differential equations</element>
+							<element>Volterra equations</element>
+						</group>
+					</element>
+					<element>Applications</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Discrete Mathematics</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Combinatorics</title>
+						<group type="a">
+							<element>Combinatorial algorithms</element>
+							<element>Counting problems</element>
+							<element>Generating functions</element>
+							<element>Permutations and combinations</element>
+							<element>Recurrences and difference equations</element>
+						</group>
+					</element>
+					<element>
+						<title>Graph Theory</title>
+						<group type="a">
+							<element>Graph algorithms</element>
+							<element>Graph labeling</element>
+							<element>Hypergraphs</element>
+							<element>Network problems</element>
+							<element>Path and circuit problems</element>
+							<element>Trees</element>
+						</group>
+					</element>
+					<element>Applications</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Probability and Statistics</title>
+				<group type="a">
+					<element>Contingency table analysis</element>
+					<element>Correlation and regression analysis</element>
+					<element>Distribution functions</element>
+					<element>Experimental design</element>
+					<element>Markov processes</element>
+					<element>Multivariate statistics</element>
+					<element>Nonparametric statistics</element>
+					<element>Probabilistic algorithms</element>
+					<element>Queuing theory</element>
+					<element>Random number generation</element>
+					<element>Reliability and life testing</element>
+					<element>Renewal theory</element>
+					<element>Robust regression</element>
+					<element>Statistical computing</element>
+					<element>Statistical software</element>
+					<element>Stochastic processes</element>
+					<element>Survival analysis</element>
+					<element>Time series analysis</element>
+				</group>
+			</element>
+			<element>
+				<title>Mathematical Software</title>
+				<group type="a">
+					<element>Algorithm design and analysis</element>
+					<element>Certification and testing</element>
+					<element>Documentation</element>
+					<element>Efficiency</element>
+					<element>Parallel and vector implementations</element>
+					<element>Portability</element>
+					<element>Reliability and robustness</element>
+					<element>User interfaces</element>
+					<element>Verification</element>
+				</group>
+			</element>
+			<element value="13" type="a">
+				<title>Miscellaneous</title>
+				<group type="a">
+					<element>Queuing theory</element>
+				</group>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Information Technology and Systems</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+				<group type="a">
+					<element>Infrastructure Protection</element>
+				</group>
+			</element>
+			<element>
+				<title>Models and Principles</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Systems and Information Theory</title>
+						<group type="a">
+							<element>General systems theory</element>
+							<element>Information theory</element>
+							<element>Value of information</element>
+						</group>
+					</element>
+					<element>
+						<title>User/Machine Systems</title>
+						<group type="a">
+							<element>Human factors</element>
+							<element>Human-centered computing</element>
+							<element>Human information processing</element>
+							<element>Software psychology</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Database Management</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Security, integrity, and protection</element>
+							<element>Database design, modeling and management</element>
+							<element>Query design and implementation languages</element>
+						</group>
+					</element>
+					<element>
+						<title>Logical Design</title>
+						<group type="a">
+							<element>Data models</element>
+							<element>Database architectures</element>
+							<element>Database integration</element>
+							<element>Database models</element>
+							<element>Normal forms</element>
+							<element>Schema and subschema</element>
+						</group>
+					</element>
+					<element>
+						<title>Physical Design</title>
+						<group type="a">
+							<element>Access methods</element>
+							<element>Deadlock avoidance</element>
+							<element>Indexing methods</element>
+							<element>Physical database design prototypes</element>
+							<element>Recovery and restart</element>
+						</group>
+					</element>
+					<element>
+						<title>Languages</title>
+						<group type="a">
+							<element>Data description languages</element>
+							<element>Data manipulation languages</element>
+							<element>Database (persistent) programming languages</element>
+							<element>Database semantics</element>
+							<element>Query languages</element>
+							<element>Report writers</element>
+						</group>
+					</element>
+					<element>
+						<title>Systems</title>
+						<group type="a">
+							<element>Active databases</element>
+							<element>Buffer management</element>
+							<element>Concurrency</element>
+							<element>Distributed databases</element>
+							<element>Multimedia databases</element>
+							<element>Object-oriented databases</element>
+							<element>Parallel databases</element>
+							<element>Query processing</element>
+							<element>Relational database</element>
+							<element>Rule-based databases</element>
+							<element>Spatial databases</element>
+							<element>Statistical databases</element>
+							<element>Temporal databases</element>
+							<element>Textual databases</element>
+							<element>Transaction processing</element>
+							<element>Workflow management</element>
+						</group>
+					</element>
+					<element>
+						<title>Heterogeneous Databases</title>
+						<group type="a">
+							<element>Data translation</element>
+							<element>Program translation</element>
+						</group>
+					</element>
+					<element>Database Machines</element>
+					<element>
+						<title>Database Administration</title>
+						<group type="a">
+							<element>Data dictionary/directory</element>
+							<element>Data warehouse and repository</element>
+							<element>Logging and recovery</element>
+							<element>Security, integrity, and protection</element>
+						</group>
+					</element>
+					<element>
+						<title>Database Applications</title>
+						<group type="a">
+							<element>Bioinformatics (genome or protein) databases</element>
+							<element>Clustering, classification, and association rules
+							</element>
+							<element>Data and knowledge visualization</element>
+							<element>Data mining</element>
+							<element>Feature extraction or construction</element>
+							<element>Knowledge management applications</element>
+							<element>Image databases</element>
+							<element>Interactive data exploration and discovery</element>
+							<element>Mining methods and algorithms</element>
+							<element>Modeling structured, textual and multimedia data
+							</element>
+							<element>Personalization</element>
+							<element>Text mining</element>
+							<element>Web mining</element>
+							<element>Scientific databases</element>
+							<element>Spatial databases and GIS</element>
+							<element>Statistical databases</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Information Storage and Retrieval</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Web Search</element>
+						</group>
+					</element>
+					<element>
+						<title>Context Analysis and Indexing</title>
+						<group type="a">
+							<element>Abstracting methods</element>
+							<element>Dictionaries</element>
+							<element>Indexing methods</element>
+							<element>Linguistic processing</element>
+							<element>Thesauruses</element>
+						</group>
+					</element>
+					<element>
+						<title>Information Storage</title>
+						<group type="a">
+							<element>Document/file management</element>
+							<element>File organization</element>
+							<element>Record classification</element>
+							<element>Storage/repositories</element>
+						</group>
+					</element>
+					<element>
+						<title>Information Search and Retrieval</title>
+						<group type="a">
+							<element>Clustering</element>
+							<element>Information filtering</element>
+							<element>Internet search</element>
+							<element>Metadata</element>
+							<element>Query formulation</element>
+							<element>Relevance feedback</element>
+							<element>Retrieval models</element>
+							<element>Search process</element>
+							<element>Selection process</element>
+						</group>
+					</element>
+					<element>
+						<title>Systems and Software</title>
+						<group type="a">
+							<element>Current awareness systems</element>
+							<element>Distributed systems</element>
+							<element>Information networks</element>
+							<element>Performance evaluation</element>
+							<element>Question-answering systems</element>
+							<element>User profiles and alert services</element>
+						</group>
+					</element>
+					<element>
+						<title>Online Information Services</title>
+						<group type="a">
+							<element>Commercial services</element>
+							<element>Data sharing</element>
+							<element>DOM</element>
+							<element>HTML/DHTML CSS</element>
+							<element>Web-based services</element>
+							<element>XML/XSL/RDF</element>
+						</group>
+					</element>
+					<element>
+						<title>Library Automation</title>
+						<group type="a">
+							<element>Large text archives</element>
+						</group>
+					</element>
+					<element>
+						<title>Digital Libraries</title>
+						<group type="a">
+							<element>Collection</element>
+							<element>Dissemination</element>
+							<element>Standards</element>
+							<element>Systems issues</element>
+							<element>User issues</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Information Technology and Systems Applications</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Office Automation</title>
+						<group type="a">
+							<element>Desktop publishing</element>
+							<element>Equipment</element>
+							<element>Groupware</element>
+							<element>Spreadsheets</element>
+							<element>Time management</element>
+							<element>Word processing</element>
+							<element>Workflow management</element>
+						</group>
+					</element>
+					<element>
+						<title>Types of Systems</title>
+						<group type="a">
+							<element>Decision support</element>
+							<element>Logistics</element>
+						</group>
+					</element>
+					<element>
+						<title>Communications Applications</title>
+						<group type="a">
+							<element>Bulletin boards</element>
+							<element>Computer conferencing, teleconferencing, and
+								videoconferencing							</element>
+							<element>Electronic mail</element>
+							<element>Information browsers</element>
+							<element>Videotex</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Information Interfaces and Representation (HCI)</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Multimedia Information Systems</title>
+						<group type="a">
+							<element>Animations</element>
+							<element>Artificial, augmented, and virtual realities</element>
+							<element>Audio input/output</element>
+							<element>Evaluation/methodology</element>
+							<element>Hypertext navigation and maps</element>
+							<element>Image/video retrieval</element>
+							<element>Video</element>
+						</group>
+					</element>
+					<element>
+						<title>User Interfaces</title>
+						<group type="a">
+							<element>Auditory (non-speech) feedback</element>
+							<element>Benchmarking</element>
+							<element>Design for wearability</element>
+							<element>Ergonomics</element>
+							<element>Evaluation/methodology</element>
+							<element>Graphical user interfaces</element>
+							<element>Haptic I/O</element>
+							<element>Input devices and strategies</element>
+							<element>Interaction styles</element>
+							<element>Natural language</element>
+							<element>Prototyping</element>
+							<element>Screen design</element>
+							<element>Standardization</element>
+							<element>Style guides</element>
+							<element>Theory and methods</element>
+							<element>Training, help, and documentation</element>
+							<element>User-centered design</element>
+							<element>User interface management systems</element>
+							<element>Vision I/O</element>
+							<element>Voice I/O</element>
+							<element>Windowing systems</element>
+						</group>
+					</element>
+					<element>
+						<title>Group and Organization Interfaces</title>
+						<group type="a">
+							<element>Asynchronous interaction</element>
+							<element>Collaborative computing</element>
+							<element>Computer-supported cooperative work</element>
+							<element>Evaluation/methodology</element>
+							<element>Organizational design</element>
+							<element>Synchronous interaction</element>
+							<element>Theory and models</element>
+							<element>Web-based interaction</element>
+						</group>
+					</element>
+					<element>
+						<title>Hypertext/Hypermedia</title>
+						<group type="a">
+							<element>Architectures</element>
+							<element>Navigation</element>
+							<element>Theory</element>
+							<element>User issues</element>
+						</group>
+					</element>
+					<element>
+						<title>Sound and Music Computing</title>
+						<group type="a">
+							<element>Methodologies and techniques</element>
+							<element>Modeling</element>
+							<element>Signal analysis, synthesis, and processing</element>
+							<element>Systems</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element value="13" type="a">
+				<title>Miscellaneous</title>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Computing Methodologies</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+			</element>
+			<element>
+				<title>Symbolic and algebraic manipulation</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Expressions and Their Representation</title>
+						<group type="a">
+							<element>Representations</element>
+							<element>Simplification of expressions</element>
+						</group>
+					</element>
+					<element>
+						<title>Algorithms</title>
+						<group type="a">
+							<element>Algebraic algorithms</element>
+							<element>Algorithms for data and knowledge management</element>
+							<element>Analysis of algorithms</element>
+							<element>Nonalgebraic algorithms</element>
+							<element>Performance evaluation of algorithms and systems
+							</element>
+						</group>
+					</element>
+					<element>
+						<title>Languages and Systems</title>
+						<group type="a">
+							<element>Evaluation strategies</element>
+							<element>Nonprocedural languages</element>
+							<element>Special-purpose algebraic systems</element>
+							<element>Special-purpose hardware</element>
+							<element>Substitution mechanisms</element>
+						</group>
+					</element>
+					<element>Applications</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Artificial Intelligence</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Cognitive simulation</element>
+							<element>Philosophical foundations</element>
+						</group>
+					</element>
+					<element>
+						<title> Applications and Expert Knowledge-Intensive Systems
+						</title>
+						<group type="a">
+							<element>Cartography</element>
+							<element>Computer vision</element>
+							<element>Decision support</element>
+							<element>Education</element>
+							<element>Environment</element>
+							<element>Games and infotainment</element>
+							<element>Industrial automation</element>
+							<element>Law</element>
+							<element>Mathematics</element>
+							<element>Medicine and science</element>
+							<element>Military</element>
+							<element>Natural language interfaces</element>
+							<element>Office automation</element>
+							<element>Space</element>
+							<element>Transportation</element>
+						</group>
+					</element>
+					<element>
+						<title>Automatic Programming</title>
+						<group type="a">
+							<element>Automatic analysis of algorithms</element>
+							<element>Program modification</element>
+							<element>Program synthesis</element>
+							<element>Program transformation</element>
+							<element>Program verification</element>
+						</group>
+					</element>
+					<element>
+						<title> Deduction and Theorem Proving and Knowledge Processing
+						</title>
+						<group type="a">
+							<element>Answer/reason extraction</element>
+							<element>Constraint-based processing</element>
+							<element>Deduction</element>
+							<element>Inference engines</element>
+							<element>Logic processing</element>
+							<element>Logic programming</element>
+							<element>Mathematical induction</element>
+							<element>Metatheory</element>
+							<element>Nonmonotonic reasoning and belief revision</element>
+							<element>Resolution</element>
+							<element>Rule-based processing</element>
+							<element>Uncertainty, "fuzzy," and probabilistic reasoning
+							</element>
+						</group>
+					</element>
+					<element>
+						<title>Knowledge Representation Formalisms and Methods</title>
+						<group type="a">
+							<element>Agent communication languages</element>
+							<element>Distributed representations</element>
+							<element>Frames and scripts</element>
+							<element>Knowledge base management</element>
+							<element>Knowledge base verification</element>
+							<element>Modal logic</element>
+							<element>Predicate logic</element>
+							<element>Relation systems</element>
+							<element>Representation languages</element>
+							<element>Representations (procedural and rule-based)</element>
+							<element>Semantic networks</element>
+							<element>Storage mechanisms</element>
+							<element>Temporal logic</element>
+						</group>
+					</element>
+					<element>
+						<title>Programming Languages and Software</title>
+						<group type="a">
+							<element>Expert and knowledge-intensive system tools and
+								techniques							</element>
+						</group>
+					</element>
+					<element>
+						<title>Learning</title>
+						<group type="a">
+							<element>Analogies</element>
+							<element>Concept learning</element>
+							<element>Connectionism and neural nets</element>
+							<element>Heuristics design</element>
+							<element>Induction</element>
+							<element>Knowledge acquisition</element>
+							<element>Machine learning</element>
+							<element>Language acquisition</element>
+							<element>Parameter learning</element>
+						</group>
+					</element>
+					<element>
+						<title>Natural Language Processing</title>
+						<group type="a">
+							<element>Discourse</element>
+							<element>Language generation</element>
+							<element>Language models</element>
+							<element>Language parsing and understanding</element>
+							<element>Language summarization</element>
+							<element>Machine translation</element>
+							<element>Speech recognition and synthesis</element>
+							<element>Text analysis</element>
+							<element>Web text analysis</element>
+						</group>
+					</element>
+					<element>
+						<title>Problem Solving, Control Methods, and Search</title>
+						<group type="a">
+							<element>Backtracking</element>
+							<element>Constraint satisfaction</element>
+							<element>Control theory</element>
+							<element>Dynamic programming</element>
+							<element>Graph and tree search strategies</element>
+							<element>Heuristic methods</element>
+							<element>Plan execution, formation, and generation</element>
+							<element>Scheduling</element>
+						</group>
+					</element>
+					<element>
+						<title>Robotics</title>
+						<group type="a">
+							<element>Autonomous vehicles</element>
+							<element>Biorobotics</element>
+							<element>Commercial robots and applications</element>
+							<element>Kinematics and dynamics</element>
+							<element>Manipulators</element>
+							<element>Nanorobots</element>
+							<element>Neuromorphic computing</element>
+							<element>Operator interfaces</element>
+							<element>Propelling mechanisms</element>
+							<element>Sensors</element>
+							<element>Workcell organization and planning</element>
+							<element>Vision</element>
+						</group>
+					</element>
+					<element>
+						<title>Vision and Scene Understanding</title>
+						<group type="a">
+							<element>3D/stereo scene analysis</element>
+							<element>Architecture and control structures</element>
+							<element>Intensity, color, photometry, and thresholding</element>
+							<element>Modeling and recovery of physical attributes</element>
+							<element>Motion</element>
+							<element>Perceptual reasoning</element>
+							<element>Representations, data structures, and transforms
+							</element>
+							<element>Shape</element>
+							<element>Texture</element>
+							<element>Video analysis</element>
+						</group>
+					</element>
+					<element>
+						<title>Distributed Artificial Intelligence</title>
+						<group type="a">
+							<element>Coherence and coordination</element>
+							<element>Intelligent agents</element>
+							<element>Languages and structures</element>
+							<element>Multiagent systems</element>
+						</group>
+					</element>
+					<element>
+						<title>Intelligent Web Services and Semantic Web</title>
+						<group type="a">
+							<element>Intelligent Web service languages</element>
+							<element>Internet reasoning services</element>
+							<element>Ontology design</element>
+							<element>Ontology languages</element>
+						</group>
+					</element>
+					<element>
+						<title>Knowledge Management</title>
+						<group type="a">
+							<element>Knowledge acquisition</element>
+							<element>Knowledge engineering methodologies</element>
+							<element>Knowledge life cycles</element>
+							<element>Knowledge maintenance</element>
+							<element>Knowledge modeling</element>
+							<element>Knowledge personalization and customization</element>
+							<element>Knowledge publishing</element>
+							<element>Knowledge retrieval</element>
+							<element>Knowledge reuse</element>
+							<element>Knowledge valuation</element>
+						</group>
+					</element>
+					<element value="13" type="a">
+						Miscellaneous
+						<group type="a">
+							<element>Adaptive hypermedia</element>
+							<element>Computational neuroscience</element>
+							<element>Evolutionary computing and genetic algorithms</element>
+							<element>Wearable AI</element>
+						</group>
+					</element>
+				</group>
+			</element>
+			<element>
+				<title>Computer Graphics</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Hardware Architecture</title>
+						<group type="a">
+							<element>Graphics processors</element>
+							<element>Hardcopy devices</element>
+							<element>Input devices</element>
+							<element>Parallel processing</element>
+							<element>Raster display devices</element>
+							<element>Storage devices</element>
+							<element>Three-dimensional displays</element>
+							<element>Vector display devices</element>
+						</group>
+					</element>
+					<element>
+						<title>Graphics Systems</title>
+						<group type="a">
+							<element>Distributed/network graphics</element>
+							<element>Remote systems</element>
+							<element>Stand-alone systems</element>
+						</group>
+					</element>
+					<element>
+						<title>Picture/Image Generation</title>
+						<group type="a">
+							<element>Antialiasing</element>
+							<element>Bitmap and frame buffer operations</element>
+							<element>Digitizing and scanning</element>
+							<element>Display algorithms</element>
+							<element>Image-based rendering</element>
+							<element>Line and curve generation</element>
+							<element>Viewing algorithms</element>
+						</group>
+					</element>
+					<element>
+						<title>Graphics Utilities</title>
+						<group type="a">
+							<element>Application packages</element>
+							<element>Device drivers</element>
+							<element>Graphics editors</element>
+							<element>Graphics packages</element>
+							<element>Meta files</element>
+							<element>Paint systems</element>
+							<element>Picture description languages</element>
+							<element>Software support</element>
+							<element>Virtual device interfaces</element>
+						</group>
+					</element>
+					<element>
+						<title>Computational Geometry and Object Modeling</title>
+						<group type="a">
+							<element>Boundary representations</element>
+							<element>Constructive solid geometry</element>
+							<element>Curve, surface, solid, and object representations
+							</element>
+							<element>Geometric algorithms, languages, and systems</element>
+							<element>Hierarchy and geometric transformations</element>
+							<element>Modeling packages</element>
+							<element>Modeling from video</element>
+							<element>Object hierarchies</element>
+							<element>Physically based modeling</element>
+							<element>Splines</element>
+						</group>
+					</element>
+					<element>
+						<title>Methodology and Techniques</title>
+						<group type="a">
+							<element>Device independence</element>
+							<element>Ergonomics</element>
+							<element>Graphics data structures and data types</element>
+							<element>Interaction techniques</element>
+							<element>Languages</element>
+							<element>Standards</element>
+						</group>
+					</element>
+					<element>
+						<title>Three-Dimensional Graphics and Realism</title>
+						<group type="a">
+							<element>Animation</element>
+							<element>Color, shading, shadowing, and texture</element>
+							<element>Fractals</element>
+							<element>Hidden line/surface removal</element>
+							<element>Radiosity</element>
+							<element>Raytracing</element>
+							<element>Virtual reality</element>
+							<element>Visible line/surface algorithms</element>
+						</group>
+					</element>
+					<element>Applications</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Image Processing and Computer Vision</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Image displays</element>
+							<element>Image processing software</element>
+						</group>
+					</element>
+					<element>
+						<title>Digitization and Image Capture</title>
+						<group type="a">
+							<element>Camera calibration</element>
+							<element>Imaging geometry</element>
+							<element>Quantization</element>
+							<element>Radiometry</element>
+							<element>Reflectance</element>
+							<element>Sampling</element>
+							<element>Scanning</element>
+						</group>
+					</element>
+					<element>
+						<title>Compression (Coding)</title>
+						<group type="a">
+							<element>Approximate methods</element>
+							<element>Exact coding</element>
+							<element>Model-based coding</element>
+							<element>MP-4 and MP-7</element>
+							<element>Video coding</element>
+						</group>
+					</element>
+					<element>
+						<title>Enhancement</title>
+						<group type="a">
+							<element>Filtering</element>
+							<element>Geometric correction</element>
+							<element>Grayscale manipulation</element>
+							<element>Registration</element>
+							<element>Sharpening and deblurring</element>
+							<element>Smoothing</element>
+						</group>
+					</element>
+					<element>
+						<title>Restoration</title>
+						<group type="a">
+							<element>Inverse filtering</element>
+							<element>Kalman filtering</element>
+							<element>Pseudoinverse restoration</element>
+							<element>Wiener filtering</element>
+						</group>
+					</element>
+					<element>
+						<title>Reconstruction</title>
+						<group type="a">
+							<element>Series expansion methods</element>
+							<element>Summation methods</element>
+							<element>Transform methods</element>
+						</group>
+					</element>
+					<element>
+						<title>Segmentation</title>
+						<group type="a">
+							<element>Edge and feature detection</element>
+							<element>Graph-theoretic methods</element>
+							<element>Markov random fields</element>
+							<element>Pixel classification</element>
+							<element>Region growing, partitioning</element>
+							<element>Relaxation</element>
+							<element>Stochastic methods</element>
+						</group>
+					</element>
+					<element>
+						<title>Feature Measurement</title>
+						<group type="a">
+							<element>Feature representation</element>
+							<element>Invariants</element>
+							<element>Moments</element>
+							<element>Projections</element>
+							<element>Size and shape</element>
+							<element>Texture</element>
+						</group>
+					</element>
+					<element>
+						<title>Scene Analysis</title>
+						<group type="a">
+							<element>Color</element>
+							<element>Depth cues</element>
+							<element>Image models</element>
+							<element>Motion</element>
+							<element>Object recognition</element>
+							<element>Photometry</element>
+							<element>Range data</element>
+							<element>Sensor fusion</element>
+							<element>Shading</element>
+							<element>Shape</element>
+							<element>Stereo</element>
+							<element>Surface fitting</element>
+							<element>Time-varying imagery</element>
+							<element>Tracking</element>
+						</group>
+					</element>
+					<element>Applications</element>
+					<element>
+						<title>Image Representation</title>
+						<group type="a">
+							<element>Hierarchical</element>
+							<element>Morphological</element>
+							<element>Multidimensional</element>
+							<element>Statistical</element>
+							<element>Volumetric</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Pattern Recognition</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Models</title>
+						<group type="a">
+							<element>Deterministic</element>
+							<element>Fuzzy set</element>
+							<element>Geometric</element>
+							<element>Neural nets</element>
+							<element>Statistical</element>
+							<element>Structural</element>
+							<element>Syntactic</element>
+						</group>
+					</element>
+					<element>
+						<title>Design Methodology</title>
+						<group type="a">
+							<element>Classifier design and evaluation</element>
+							<element>Feature evaluation and selection</element>
+							<element>Pattern analysis</element>
+						</group>
+					</element>
+					<element>
+						<title>Clustering</title>
+						<group type="a">
+							<element>Algorithms</element>
+							<element>Similarity measures</element>
+						</group>
+					</element>
+					<element>
+						<title>Applications</title>
+						<group type="a">
+							<element>Arts</element>
+							<element>Computer vision</element>
+							<element>Computational models of vision</element>
+							<element>Face and gesture recognition</element>
+							<element>Government</element>
+							<element>Handwriting analysis</element>
+							<element>Industry</element>
+							<element>Medicine</element>
+							<element>Military</element>
+							<element>Remote sensing</element>
+							<element>Robotics</element>
+							<element>Sciences</element>
+							<element>Signal processing</element>
+							<element>Text processing</element>
+							<element>Waveform analysis</element>
+						</group>
+					</element>
+					<element>
+						<title>Implementation</title>
+						<group type="a">
+							<element>Interactive systems</element>
+							<element>Real-time systems</element>
+							<element>Special architectures</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Simulation, Modeling, and Visualization</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Simulation Theory</title>
+						<group type="a">
+							<element>Model classification</element>
+							<element>Systems theory</element>
+							<element>Types of simulation</element>
+						</group>
+					</element>
+					<element>Simulation Languages</element>
+					<element>Applications</element>
+					<element>Model Validation and Analysis</element>
+					<element>
+						<title>Model Development</title>
+						<group type="a">
+							<element>Modeling methodologies</element>
+						</group>
+					</element>
+					<element>Simulation Output Analysis</element>
+					<element>
+						<title>Simulation Support Systems</title>
+						<group type="a">
+							<element>Environments</element>
+						</group>
+					</element>
+					<element>
+						<title>Types of Simulation</title>
+						<group type="a">
+							<element>Animation</element>
+							<element>Combined</element>
+							<element>Continuous</element>
+							<element>Discrete event</element>
+							<element>Distributed</element>
+							<element>Gaming</element>
+							<element>Monte Carlo</element>
+							<element>Parallel</element>
+							<element>Visual</element>
+						</group>
+					</element>
+					<element>
+						<title>Visualization</title>
+						<group type="a">
+							<element>Applications</element>
+							<element>Flow visualization</element>
+							<element>Information visualization</element>
+							<element>Multivariate visualization</element>
+							<element>Visual programming and program visualization</element>
+							<element>Visualization systems and software</element>
+							<element>Visualization techniques and methodologies</element>
+							<element>Volume visualization</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Document and Text Processing</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Document and Text Editing</title>
+						<group type="a">
+							<element>Document management</element>
+							<element>Languages</element>
+							<element>Spelling</element>
+							<element>Version control</element>
+						</group>
+					</element>
+					<element>
+						<title>Document Preparation</title>
+						<group type="a">
+							<element>Desktop publishing</element>
+							<element>Format and notation</element>
+							<element>Hypertext/hypermedia</element>
+							<element>Index generation</element>
+							<element>Languages and systems</element>
+							<element>Markup languages</element>
+							<element>Multi/mixed media</element>
+							<element>Photocomposition/typesetting</element>
+							<element>Scripting languages</element>
+							<element>Standards</element>
+						</group>
+					</element>
+					<element>Index Generation</element>
+					<element>Electronic Publishing</element>
+					<element>
+						<title>Document Capture</title>
+						<group type="a">
+							<element>Document analysis</element>
+							<element>Document indexing</element>
+							<element>Graphics recognition and interpretation</element>
+							<element>Optical character recognition</element>
+							<element>Scanning</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element value="13" type="a">
+				<title>Miscellaneous</title>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Computer Applications</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+			</element>
+			<element>
+				<title>Administrative Data Processing</title>
+				<group type="a">
+					<element>Business</element>
+					<element>Education</element>
+					<element>Financial</element>
+					<element>Government</element>
+					<element>Law</element>
+					<element>Manufacturing</element>
+					<element>Marketing</element>
+					<element>Military</element>
+				</group>
+			</element>
+			<element>
+				<title>Physical Sciences and Engineering</title>
+				<group type="a">
+					<element>Aerospace</element>
+					<element>Archaeology</element>
+					<element>Astronomy</element>
+					<element>Chemistry</element>
+					<element>Earth and atmospheric sciences</element>
+					<element>Electronics</element>
+					<element>Engineering</element>
+					<element>Mathematics and statistics</element>
+					<element>Physics</element>
+				</group>
+			</element>
+			<element>
+				<title>Life and Medical Sciences</title>
+				<group type="a">
+					<element>Biology and genetics</element>
+					<element>Health</element>
+					<element>Medical information systems</element>
+				</group>
+			</element>
+			<element>
+				<title>Social and Behavioral Sciences</title>
+				<group type="a">
+					<element>Economics</element>
+					<element>Psychology</element>
+					<element>Sociology</element>
+				</group>
+			</element>
+			<element>
+				<title>Arts and Humanities</title>
+				<group type="a">
+					<element>Architecture</element>
+					<element>Arts, fine and performing</element>
+					<element>Fine arts</element>
+					<element>Language translation</element>
+					<element>Linguistics</element>
+					<element>Literature</element>
+					<element>Music</element>
+					<element>Performing arts</element>
+				</group>
+			</element>
+			<element>
+				<title>Computer-Aided Engineering</title>
+				<group type="a">
+					<element>Computer-aided design</element>
+					<element>Computer-aided manufacturing</element>
+				</group>
+			</element>
+			<element>
+				<title>Computers in Other Systems</title>
+				<group type="a">
+					<element>Command and control</element>
+					<element>Consumer products</element>
+					<element>Industrial control</element>
+					<element>Military</element>
+					<element>Process control</element>
+					<element>Publishing</element>
+					<element>Real time</element>
+				</group>
+			</element>
+			<element>
+				<title>Internet Applications</title>
+				<group type="a">
+					<element>Client/server and multitier systems</element>
+					<element>Databases</element>
+					<element>Database connectivity</element>
+					<element>Distributed file systems</element>
+					<element>Electronic commerce</element>
+					<element>Engineering design</element>
+					<element>Games</element>
+					<element>Health care</element>
+					<element>Intranet/extranet/VPNs</element>
+					<element>Libraries/information repositories/publishing</element>
+					<element>Manufacturing</element>
+					<element>Middleware/business logic</element>
+					<element>Network repositories/data mining/backup</element>
+					<element>Software engineering</element>
+					<element>Traffic analysis</element>
+					<element>Transaction software</element>
+					<element>Web browsers</element>
+					<element>Web servers</element>
+					<element>Web site management/development tools</element>
+				</group>
+			</element>
+			<element>
+				<title>Mobile Applications</title>
+				<group type="a">
+					<element>Location-dependent and sensitive</element>
+					<element>Nomadic computing</element>
+					<element>Multimedia applications and multimedia signal processing
+					</element>
+					<element>Pervasive computing</element>
+					<element>Wearable computers and body area networks</element>
+					<element>Wireless sensor networks</element>
+				</group>
+			</element>
+			<element value="13" type="a">
+				<title>Miscellaneous</title>
+			</element>
+		</group>
+	</element>
+	<element>
+		<em>
+			<title>Computing Milieux</title>
+		</em>
+		<group start="0" type="1">
+			<element>
+				<title>General</title>
+			</element>
+			<element>
+				<title>The Computer Industry</title>
+				<group type="a">
+					<element>Markets</element>
+					<element>Standards</element>
+					<element>Statistics</element>
+					<element>Suppliers</element>
+				</group>
+			</element>
+			<element>
+				<title>History of Computing</title>
+				<group type="a">
+					<element>Hardware</element>
+					<element>People</element>
+					<element>Software</element>
+					<element>Systems</element>
+					<element>Theory</element>
+				</group>
+			</element>
+			<element>
+				<title>Computers and Education</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Computer Uses in Education</title>
+						<group type="a">
+							<element>Collaborative learning</element>
+							<element>Computer-assisted instruction</element>
+							<element>Computer-managed instruction</element>
+							<element>Distance learning</element>
+						</group>
+					</element>
+					<element>
+						<title>Computer and Information Science Education</title>
+						<group type="a">
+							<element>Accreditation</element>
+							<element>Computer science education</element>
+							<element>Curriculum</element>
+							<element>Information systems education</element>
+							<element>Literacy</element>
+							<element>Self-assessment</element>
+						</group>
+					</element>
+					<element value="13" type="a">
+						Miscellaneous
+						<group type="a">
+							<element>Accreditation</element>
+							<element>Computer literacy</element>
+						</group>
+					</element>
+				</group>
+			</element>
+			<element>
+				<title>Computers and Society</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Public Policy Issues</title>
+						<group type="a">
+							<element>Abuse and crime involving computers</element>
+							<element>Computer-related health issues</element>
+							<element>Ethics</element>
+							<element>Human safety</element>
+							<element>Intellectual property rights</element>
+							<element>Privacy</element>
+							<element>Regulation</element>
+							<element>Transborder data flow</element>
+							<element>Use/abuse of power</element>
+						</group>
+					</element>
+					<element>
+						<title>Social Issues</title>
+						<group type="a">
+							<element>Abuse and crime involving computers</element>
+							<element>Assistive technologies for persons with disabilities
+							</element>
+							<element>Employment</element>
+							<element>Handicapped persons/special needs</element>
+						</group>
+					</element>
+					<element>
+						<title>Organizational Impacts</title>
+						<group type="a">
+							<element>Automation</element>
+							<element>Computer-supported collaborative work</element>
+							<element>Deployment, usage experience</element>
+							<element>Employment</element>
+							<element>Reengineering</element>
+							<element>Scalability, maintainability</element>
+						</group>
+					</element>
+					<element>
+						<title>Electronic Commerce</title>
+						<group type="a">
+							<element>Cybercash, digital cash</element>
+							<element>Distributed commercial transactions</element>
+							<element>Electronic data interchange</element>
+							<element>Intellectual property</element>
+							<element>Payment schemes</element>
+							<element>Security</element>
+							<element>Internet security policies</element>
+							<element>Mobile code security</element>
+							<element>Economic and other policies</element>
+						</group>
+					</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element>
+				<title>Legal Aspects of Computing</title>
+				<group start="0" type="1">
+					<element>General</element>
+					<element>
+						<title>Hardware/Software Protection</title>
+						<group type="a">
+							<element>Copyrights</element>
+							<element>Licensing</element>
+							<element>Patents</element>
+							<element>Proprietary rights</element>
+							<element>Trade secrets</element>
+						</group>
+					</element>
+					<element>
+						<title>Governmental Issues</title>
+						<group type="a">
+							<element>Censorship</element>
+							<element>Regulation</element>
+							<element>Taxation</element>
+						</group>
+					</element>
+					<element value="13" type="a">
+						Miscellaneous
+						<group type="a">
+							<element>Contracts</element>
+							<element>Hardware patents</element>
+						</group>
+					</element>
+				</group>
+			</element>
+			<element>
+				<title>Management of Computing and Information Systems</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Economics</element>
+							<element>Information resource management</element>
+						</group>
+					</element>
+					<element>
+						<title>Project and People Management</title>
+						<group type="a">
+							<element>Life cycle</element>
+							<element>Management techniques</element>
+							<element>Staffing</element>
+							<element>Strategic information systems planning</element>
+							<element>Systems analysis and design</element>
+							<element>Systems development</element>
+							<element>Training</element>
+						</group>
+					</element>
+					<element>
+						<title>Installation Management</title>
+						<group type="a">
+							<element>Benchmarks</element>
+							<element>Computer selection</element>
+							<element>Computing equipment management</element>
+							<element>Performance and usage measurement</element>
+							<element>Pricing and resource allocation</element>
+						</group>
+					</element>
+					<element>
+						<title>Software Management</title>
+						<group type="a">
+							<element>Software development</element>
+							<element>Software maintenance</element>
+							<element>Software process</element>
+							<element>Software selection</element>
+						</group>
+					</element>
+					<element>
+						<title>System Management</title>
+						<group type="a">
+							<element>Centralization/decentralization</element>
+							<element>Management audit</element>
+							<element>Quality assurance</element>
+						</group>
+					</element>
+					<element>
+						<title>Security and Protection</title>
+						<group type="a">
+							<element>Authentication</element>
+							<element>Insurance</element>
+							<element>Invasive software (viruses, worms, Trojan horses)
+							</element>
+							<element>Physical security</element>
+							<element>Unauthorized access (hacking, phreaking)</element>
+						</group>
+					</element>
+					<element value="13" type="a">
+						Miscellaneous
+						<group type="a">
+							<element>Insurance</element>
+							<element>Security</element>
+						</group>
+					</element>
+				</group>
+			</element>
+			<element>
+				<title>The Computing Profession</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Career Management</element>
+						</group>
+					</element>
+					<element>Occupations</element>
+					<element>Organizations</element>
+					<element>Testing, Certification, and Licensing</element>
+					<element>
+						<title>Professional Ethics</title>
+						<group type="a">
+							<element>Codes of ethics</element>
+							<element>Codes of good practice</element>
+							<element>Ethical dilemmas</element>
+						</group>
+					</element>
+					<element value="13" type="a">
+						Miscellaneous
+						<group type="a">
+							<element>Codes of good practice</element>
+							<element>Ethics</element>
+						</group>
+					</element>
+				</group>
+			</element>
+			<element>
+				<title>Personal Computing</title>
+				<group start="0" type="1">
+					<element>
+						<title>General</title>
+						<group type="a">
+							<element>Games</element>
+						</group>
+					</element>
+					<element>
+						<title>Application Packages</title>
+						<group type="a">
+							<element>Data communications</element>
+							<element>Database processing</element>
+							<element>Freeware/shareware</element>
+							<element>Graphics</element>
+							<element>Spreadsheets</element>
+							<element>Word processing</element>
+						</group>
+					</element>
+					<element>Hardware</element>
+					<element>Management/Maintenance</element>
+					<element value="13" type="a">Miscellaneous</element>
+				</group>
+			</element>
+			<element value="13" type="a">
+				<title>Miscellaneous</title>
+				<group type="a">
+					<element>Business</element>
+					<element>Education</element>
+					<element>Financial</element>
+					<element>Healthcare</element>
+					<element>Industrial</element>
+					<element>IT Applications</element>
+					<element>Legal</element>
+					<element>Library</element>
+					<element>Military</element>
+					<element>Publishing</element>
+					<element>Sports</element>
+				</group>
+			</element>
+		</group>
+	</element>
+</group>
