@@ -13,8 +13,8 @@ public class TaxElement extends TaxNode {
     /**
      * @param text
      */
-    public TaxElement(String text) {
-	super(text);
+    public TaxElement(String text, TaxNode parent) {
+	super(text, parent);
     }
 
     /**

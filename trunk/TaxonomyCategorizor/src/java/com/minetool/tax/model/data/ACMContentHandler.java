@@ -8,23 +8,49 @@ import org.xml.sax.ContentHandler;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 
+import com.minetool.tax.model.TaxCategory;
+import com.minetool.tax.model.TaxNode;
+
 /**
  * @author HuYao
- *
+ * 
  */
 public class ACMContentHandler implements ContentHandler {
+    private TaxCategory _rootModel  = new TaxCategory("ACM Taxonomy",null);
+    private TaxNode _currentNode;
+    
+    public static final String TAG_GROUP = "group";
+    public static final String TAG_ELE = "element";
+    public static final String TAG_TITLE = "title";
 
-    /* (non-Javadoc)
+    private int groupDepth = 0;
+    private int eleDepth = 0;
+
+    private boolean isInGroup = false;
+    private boolean isInEle = false;
+    private boolean isInTitle = false;
+
+    public ACMContentHandler(){
+	_currentNode = _rootModel;
+    }
+    /*
+     * (non-Javadoc)
+     * 
      * @see org.xml.sax.ContentHandler#characters(char[], int, int)
      */
     @Override
     public void characters(char[] ch, int start, int length)
 	    throws SAXException {
-	// TODO Auto-generated method stub
-
+	if(this._currentNode!=null){
+	    if(isInGroup){
+		
+	    }
+	}
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see org.xml.sax.ContentHandler#endDocument()
      */
     @Override
@@ -33,17 +59,35 @@ public class ACMContentHandler implements ContentHandler {
 
     }
 
-    /* (non-Javadoc)
-     * @see org.xml.sax.ContentHandler#endElement(java.lang.String, java.lang.String, java.lang.String)
+    /*
+     * (non-Javadoc)
+     * 
+     * @see org.xml.sax.ContentHandler#endElement(java.lang.String,
+     * java.lang.String, java.lang.String)
      */
     @Override
     public void endElement(String uri, String localName, String qName)
 	    throws SAXException {
-	// TODO Auto-generated method stub
+	if (qName.equalsIgnoreCase(TAG_GROUP)) {
+	    groupDepth--;
+	    isInGroup = false;
+	    
+	}
+	if (qName.equalsIgnoreCase(TAG_ELE)) {
+	    eleDepth--;
+	    isInEle = false;
+	    
+	    _currentNode
 
+	}
+	if (qName.equalsIgnoreCase(TAG_TITLE)) {
+	    isInTitle = false;
+	}
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see org.xml.sax.ContentHandler#endPrefixMapping(java.lang.String)
      */
     @Override
@@ -52,7 +96,9 @@ public class ACMContentHandler implements ContentHandler {
 
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see org.xml.sax.ContentHandler#ignorableWhitespace(char[], int, int)
      */
     @Override
@@ -62,8 +108,11 @@ public class ACMContentHandler implements ContentHandler {
 
     }
 
-    /* (non-Javadoc)
-     * @see org.xml.sax.ContentHandler#processingInstruction(java.lang.String, java.lang.String)
+    /*
+     * (non-Javadoc)
+     * 
+     * @see org.xml.sax.ContentHandler#processingInstruction(java.lang.String,
+     * java.lang.String)
      */
     @Override
     public void processingInstruction(String target, String data)
@@ -72,7 +121,9 @@ public class ACMContentHandler implements ContentHandler {
 
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see org.xml.sax.ContentHandler#setDocumentLocator(org.xml.sax.Locator)
      */
     @Override
@@ -81,7 +132,9 @@ public class ACMContentHandler implements ContentHandler {
 
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see org.xml.sax.ContentHandler#skippedEntity(java.lang.String)
      */
     @Override
@@ -90,7 +143,9 @@ public class ACMContentHandler implements ContentHandler {
 
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see org.xml.sax.ContentHandler#startDocument()
      */
     @Override
@@ -99,18 +154,41 @@ public class ACMContentHandler implements ContentHandler {
 
     }
 
-    /* (non-Javadoc)
-     * @see org.xml.sax.ContentHandler#startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes)
+    /*
+     * (non-Javadoc)
+     * 
+     * @see org.xml.sax.ContentHandler#startElement(java.lang.String,
+     * java.lang.String, java.lang.String, org.xml.sax.Attributes)
      */
     @Override
     public void startElement(String uri, String localName, String qName,
 	    Attributes atts) throws SAXException {
 	// TODO Auto-generated method stub
+	if (qName.equalsIgnoreCase(TAG_GROUP)) {
+	    groupDepth++;
+	    isInGroup = true;
+	    isInEle = false;
+	    isInTitle = false;
+	}
+	if (qName.equalsIgnoreCase(TAG_ELE)) {
+	    eleDepth++;
+	    isInEle = true;
+	    isInGroup = false;
+	    isInTitle = false;
 
+	}
+	if (qName.equalsIgnoreCase(TAG_TITLE)) {
+	    isInEle = false;
+	    isInGroup = false;
+	    isInTitle = true;
+	}
     }
 
-    /* (non-Javadoc)
-     * @see org.xml.sax.ContentHandler#startPrefixMapping(java.lang.String, java.lang.String)
+    /*
+     * (non-Javadoc)
+     * 
+     * @see org.xml.sax.ContentHandler#startPrefixMapping(java.lang.String,
+     * java.lang.String)
      */
     @Override
     public void startPrefixMapping(String prefix, String uri)

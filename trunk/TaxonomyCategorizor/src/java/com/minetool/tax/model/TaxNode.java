@@ -10,13 +10,18 @@ import java.util.List;
 public abstract class TaxNode {
     protected String _text = ""; //$NON-NLS-1$
     protected List<TaxNode> _taxList = new ArrayList<TaxNode>();
+    protected TaxNode _parent;
+    public TaxNode getParent() {
+        return _parent;
+    }
 
     /**
      * Constructor for TaxNode.
      * @param text String
      */
-    public TaxNode(String text) {
+    public TaxNode(String text,TaxNode parent) {
 	this._text = text;
+	this._parent = parent;
     }
 
     /**
