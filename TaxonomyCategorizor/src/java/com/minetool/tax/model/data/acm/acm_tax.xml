@@ -34,7 +34,7 @@
 			</element>
 			<element>
 				<title>Control Structures and Microprogramming</title>
-				<group start="0">
+				<group start="0" type="1">
 					<element>General</element>
 					<element>
 						<title>Control Design Styles</title>
@@ -54,8 +54,7 @@
 						</group>
 					</element>
 					<element>
-						<title> Control Structure Reliability, Testing, and
-							Fault-Tolerance						</title>
+						<title>Control Structure Reliability, Testing, and Fault-Tolerance</title>
 						<group type="a">
 							<element>Diagnostics</element>
 							<element>Error-checking</element>
@@ -94,10 +93,7 @@
 			</element>
 			<element>
 				<title>Arithmetic and Logic Structures</title>
-			</element>
-			<element
-				style="list-style-type: none; list-style-image: none; list-style-position: outside;">
-				<group start="0">
+				<group start="0" type="1">
 					<element>General</element>
 					<element>
 						<title>Design Styles</title>
@@ -367,7 +363,7 @@
 			</element>
 			<element>
 				<title>Power Management</title>
-				<group>
+				<group start="1" type="1">
 					<element>Low-power design</element>
 					<element>Energy-aware systems</element>
 				</group>
@@ -587,8 +583,7 @@
 					<element>Modeling techniques</element>
 					<element>Performance attributes</element>
 					<element>Reliability, availability, and serviceability</element>
-					<element>Measurement, evaluation, modeling, simulation of
-						multiple-processor systems					</element>
+					<element>Measurement, evaluation, modeling, simulation of multiple-processor systems</element>
 				</group>
 			</element>
 			<element>
@@ -687,8 +682,7 @@
 						<group type="a">
 							<element>CASE</element>
 							<element>Decision tables</element>
-							<element>Distributed/Internet based software engineering tools
-								and techniques							</element>
+							<element>Distributed/Internet based software engineering tools and techniques</element>
 							<element>Modules and interfaces</element>
 							<element>Programmer workbench</element>
 						</group>
@@ -798,7 +792,7 @@
 							<element>Productivity</element>
 							<element>Programming teams</element>
 							<element>Project close out</element>
-							<element>Project control &amp; modeling</element>
+							<element>Project control modeling</element>
 							<element>Review and evaluation</element>
 							<element>Risk management</element>
 							<element>Schedule and organizational issues</element>
@@ -902,7 +896,7 @@
 						</group>
 					</element>
 					<element value="13" type="a">
-						Miscellaneous
+						<title>Miscellaneous</title>
 						<group type="a">
 							<element>Software libraries</element>
 							<element>System issues</element>
@@ -932,8 +926,7 @@
 							<element>Applicative (functional) languages</element>
 							<element>Componentware</element>
 							<element>Compression technologies</element>
-							<element>Concurrent, distributed, and parallel languages
-							</element>
+							<element>Concurrent, distributed, and parallel languages</element>
 							<element>Constraint and logic languages</element>
 							<element>Dataflow languages</element>
 							<element>Design languages</element>
