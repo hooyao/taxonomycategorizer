@@ -47,11 +47,11 @@ public class TaxElement extends TaxNode {
      * @return List<String>
      */
     public List<String> getLabelList() {
-	StringTokenizer st = new StringTokenizer(this._text);
+	StringTokenizer st = new StringTokenizer(this._text,","); //$NON-NLS-1$
 	ArrayList<String> list = new ArrayList<String>();
 	while (st.hasMoreTokens()) {
 	    String s = st.nextToken();
-	    list.add(s);
+	    list.add(s.trim());
 	}
 	return list;
     }
@@ -74,6 +74,24 @@ public class TaxElement extends TaxNode {
 	    }
 	}
 	return pathSb + "  " + this.getEleEntry(); //$NON-NLS-1$
+    }
+
+    /* (non-Javadoc)
+     * @see com.minetool.tax.model.TaxNode#getCompletePath()
+     */
+    @Override
+    public String getCompletePath() {
+	StringBuilder pathSb = new StringBuilder();
+	TaxNode node = this;
+	pathSb.insert(0, node.getPath());
+	while (node.getParent() != null) {
+	    node = node.getParent();
+	    if (node.getPath() != null & node.getPath().length() > 0) {
+		pathSb.insert(0, "."); //$NON-NLS-1$
+		pathSb.insert(0, node.getPath());
+	    }
+	}
+	return pathSb.toString();
     }
 
 }
