@@ -63,4 +63,24 @@ public class TaxCategory extends TaxNode {
 	return sb.toString();
     }
 
+    /*
+     * (non-Javadoc)
+     * 
+     * @see com.minetool.tax.model.TaxNode#getCompletePath()
+     */
+    @Override
+    public String getCompletePath() {
+	StringBuilder pathSb = new StringBuilder();
+	TaxNode n = this;
+	pathSb.insert(0, n.getPath());
+	while (n.getParent() != null) {
+	    n = n.getParent();
+	    if (n.getPath() != null & n.getPath().length() > 0) {
+		pathSb.insert(0, "."); //$NON-NLS-1$
+		pathSb.insert(0, n.getPath());
+	    }
+	}
+	return pathSb.toString();
+    }
+
 }

@@ -12,8 +12,8 @@ public abstract class TaxNode {
 
     /**
      * 
-     * @return the _path
-     */
+    
+     * @return the _path */
     public String getPath() {
 	return this._path;
     }
@@ -33,8 +33,8 @@ public abstract class TaxNode {
     /**
      * Method getParent.
      * 
-     * @return TaxNode
-     */
+    
+     * @return TaxNode */
     public TaxNode getParent() {
 	return this._parent;
     }
@@ -56,8 +56,8 @@ public abstract class TaxNode {
      * Method getText.
      * 
      * 
-     * @return String
-     */
+    
+     * @return String */
     protected String getText() {
 	return this._text;
     }
@@ -76,8 +76,8 @@ public abstract class TaxNode {
      * Method getChildList.
      * 
      * 
-     * @return List<TaxNode>
-     */
+    
+     * @return List<TaxNode> */
     public List<TaxNode> getChildList() {
 	return this._taxList;
     }
@@ -102,4 +102,9 @@ public abstract class TaxNode {
 	return getText();
     }
 
+    /**
+     * Method getCompletePath.
+     * @return String
+     */
+    public abstract String getCompletePath();
 }

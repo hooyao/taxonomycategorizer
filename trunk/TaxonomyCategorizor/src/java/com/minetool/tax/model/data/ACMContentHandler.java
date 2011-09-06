@@ -3,6 +3,7 @@
  */
 package com.minetool.tax.model.data;
 
+import java.util.List;
 import java.util.Stack;
 
 import org.xml.sax.Attributes;
@@ -13,6 +14,7 @@ import org.xml.sax.SAXException;
 import com.minetool.tax.model.TaxCategory;
 import com.minetool.tax.model.TaxElement;
 import com.minetool.tax.model.TaxNode;
+import com.minetool.tax.model.TaxRoot;
 
 /**
  * @author HuYao
@@ -20,13 +22,13 @@ import com.minetool.tax.model.TaxNode;
  * @version $Revision: 1.0 $
  */
 public class ACMContentHandler implements ContentHandler {
-    private TaxCategory _rootModel = new TaxCategory("ACM Taxonomy", null); //$NON-NLS-1$
+    private TaxRoot _rootModel = new TaxRoot("ACM Taxonomy"); //$NON-NLS-1$
 
     /**
      * 
      * @return the _rootModel
      */
-    public TaxCategory getRootModel() {
+    public TaxRoot getRootModel() {
 	return this._rootModel;
     }
 
@@ -127,6 +129,7 @@ public class ACMContentHandler implements ContentHandler {
 		if (this._currentNode instanceof TaxCategory) {
 		    TaxCategory cat = (TaxCategory) this._currentNode;
 		    cat.setTitle(cat.getTitle() + value);
+		    this._rootModel.getMapping().put(cat.getTitle().trim().toLowerCase(), cat);
 		}
 	    }
 	}
@@ -162,6 +165,10 @@ public class ACMContentHandler implements ContentHandler {
 		TaxElement ele = (TaxElement) this._currentNode;
 		ele.setEleEntry(this.sb.toString());
 		// System.out.println(sb);
+		List<String> labelList = ele.getLabelList();
+		for (String label : labelList) {
+		    this._rootModel.getMapping().put(label.trim().toLowerCase(), ele);
+		}
 	    }
 	    this._currentNode = this._currentNode.getParent();
 	}

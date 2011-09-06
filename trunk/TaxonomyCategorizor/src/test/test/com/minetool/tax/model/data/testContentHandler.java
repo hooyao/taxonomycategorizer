@@ -23,10 +23,12 @@ public class testContentHandler {
     /**
      * Method testACMContentHandler.
      * 
-     * 
      * @throws SAXException
+     * 
+     * @throws IOException
      *             * @throws IOException
      */
+    @SuppressWarnings("static-method")
     @Test
     public void testACMContentHandler() throws SAXException, IOException {
 	InputStream is = testContentHandler.class.getClass()
