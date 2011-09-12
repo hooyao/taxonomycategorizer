@@ -84,7 +84,7 @@
 						</group>
 					</element>
 					<element value="13" type="a">
-						Miscellaneous
+						<title>Miscellaneous</title>
 						<group type="a">
 							<element>Emerging technologies</element>
 						</group>
@@ -449,7 +449,7 @@
 						</group>
 					</element>
 					<element value="13" type="a">
-						Miscellaneous
+						<title>Miscellaneous</title>
 						<group type="a">
 							<element>Analog computers</element>
 							<element>Hybrid systems</element>
@@ -563,8 +563,7 @@
 			<element>
 				<title>Special-Purpose and Application-Based Systems</title>
 				<group type="a">
-					<element>Application studies resulting in better multiple-processor
-						systems					</element>
+					<element>Application studies resulting in better multiple-processor systems</element>
 					<element>Microprocessor/microcomputer applications</element>
 					<element>Process control systems</element>
 					<element>Real-time and embedded systems</element>
@@ -1822,8 +1821,7 @@
 						<title>Communications Applications</title>
 						<group type="a">
 							<element>Bulletin boards</element>
-							<element>Computer conferencing, teleconferencing, and
-								videoconferencing							</element>
+							<element>Computer conferencing, teleconferencing, and videoconferencing</element>
 							<element>Electronic mail</element>
 							<element>Information browsers</element>
 							<element>Videotex</element>
@@ -1999,7 +1997,7 @@
 						</group>
 					</element>
 					<element>
-						<title> Deduction and Theorem Proving and Knowledge Processing
+						<title>Deduction and Theorem Proving and Knowledge Processing
 						</title>
 						<group type="a">
 							<element>Answer/reason extraction</element>
@@ -2038,8 +2036,7 @@
 					<element>
 						<title>Programming Languages and Software</title>
 						<group type="a">
-							<element>Expert and knowledge-intensive system tools and
-								techniques							</element>
+							<element>Expert and knowledge-intensive system tools and techniques</element>
 						</group>
 					</element>
 					<element>
@@ -2150,7 +2147,7 @@
 						</group>
 					</element>
 					<element value="13" type="a">
-						Miscellaneous
+						<title>Miscellaneous</title>
 						<group type="a">
 							<element>Adaptive hypermedia</element>
 							<element>Computational neuroscience</element>
@@ -2715,7 +2712,7 @@
 						</group>
 					</element>
 					<element value="13" type="a">
-						Miscellaneous
+						<title>Miscellaneous</title>
 						<group type="a">
 							<element>Accreditation</element>
 							<element>Computer literacy</element>
@@ -2802,7 +2799,7 @@
 						</group>
 					</element>
 					<element value="13" type="a">
-						Miscellaneous
+						<title>Miscellaneous</title>
 						<group type="a">
 							<element>Contracts</element>
 							<element>Hardware patents</element>
@@ -2871,7 +2868,7 @@
 						</group>
 					</element>
 					<element value="13" type="a">
-						Miscellaneous
+						<title>Miscellaneous</title>
 						<group type="a">
 							<element>Insurance</element>
 							<element>Security</element>
@@ -2900,7 +2897,7 @@
 						</group>
 					</element>
 					<element value="13" type="a">
-						Miscellaneous
+						<title>Miscellaneous</title>
 						<group type="a">
 							<element>Codes of good practice</element>
 							<element>Ethics</element>
