@@ -16,28 +16,41 @@ import edu.smu.tspell.wordnet.WordNetDatabase;
 public class WordNetUtil {
 
     private final static WordNetUtil _instance = new WordNetUtil();
+    
+    private final static String ThisClassName = "WordNetUtil.class";
+    
+    private final static String ThisClassPath = "/categorizer/WordNetUtil.class";
+    
+    private final static String ResourceDict = "/resource/dict";
+    
+    private final static String PropString = "wordnet.database.dir";
+    
+    private WordNetDatabase _database;
 
     private WordNetUtil() {
 	super();
-	try {
-	    String propertyDir = WordNetUtil.class
-		    .getResource("WordNetUtil.class").getPath()
-		    .replace("/categorizer/WordNetUtil.class", "/resource/dict");
-	    System.setProperty("wordnet.database.dir", propertyDir);
-	    NounSynset nounSynset;
-	    NounSynset[] hyponyms;
+	String propertyDir = WordNetUtil.class.getResource(ThisClassName)
+		.getPath().replace(ThisClassPath, ResourceDict);
+	System.setProperty(PropString, propertyDir);
 
-	    WordNetDatabase database = WordNetDatabase.getFileInstance();
-	    Synset[] synsets = database.getSynsets("fly", SynsetType.NOUN);
-	    for (int i = 0; i < synsets.length; i++) {
-		nounSynset = (NounSynset) (synsets[i]);
-		hyponyms = nounSynset.getHyponyms();
-		System.err.println(nounSynset.getWordForms()[0] + ": "
-			+ nounSynset.getDefinition() + ") has "
-			+ hyponyms.length + " hyponyms");
-	    }
-	} catch (Exception e) {
-	    e.printStackTrace();
+	NounSynset nounSynset;
+	NounSynset[] hyponyms;
+
+	this._database = WordNetDatabase.getFileInstance();
+
+	Synset[] synsets = _database.getSynsets("fly", SynsetType.NOUN);
+	for (int i = 0; i < synsets.length; i++) {
+	    nounSynset = (NounSynset) (synsets[i]);
+	    hyponyms = nounSynset.getHyponyms();
+	    System.err.println(nounSynset.getWordForms()[0] + ": "
+		    + nounSynset.getDefinition() + ") has " + hyponyms.length
+		    + "  ");
+	}
+
+	String[] forms = _database
+		.getBaseFormCandidates("fly", SynsetType.NOUN);
+	for (String string : forms) {
+	    System.out.println(string + "\n");
 	}
     }
 
@@ -45,8 +58,19 @@ public class WordNetUtil {
 	return _instance;
     }
 
-    public static void main(String[] args) {
+    public boolean isBaseForm(String in) {
+	if (_database == null)
+	    throw new RuntimeException("WordNet Database Error");
+	String[] forms = _database.getBaseFormCandidates(in, SynsetType.NOUN);
+	if (forms != null && forms.length > 0) {
+	    return false;
+	}
+	return true;
+    }
 
-	WordNetUtil wnu = WordNetUtil.getInstance();
+    public String[] getBaseForm(String in) {
+	if (_database == null)
+	    throw new RuntimeException("WordNet Database Error");
+	return _database.getBaseFormCandidates(in, SynsetType.NOUN);
     }
 }
