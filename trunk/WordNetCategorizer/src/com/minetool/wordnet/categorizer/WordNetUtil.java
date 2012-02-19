@@ -3,6 +3,8 @@
  */
 package com.minetool.wordnet.categorizer;
 
+import org.junit.Test.None;
+
 import edu.smu.tspell.wordnet.NounSynset;
 import edu.smu.tspell.wordnet.Synset;
 import edu.smu.tspell.wordnet.SynsetType;
@@ -38,7 +40,7 @@ public class WordNetUtil {
 
 	this._database = WordNetDatabase.getFileInstance();
 
-	Synset[] synsets = _database.getSynsets("fly", SynsetType.NOUN);
+	Synset[] synsets = _database.getSynsets("DBMS", SynsetType.NOUN);
 	for (int i = 0; i < synsets.length; i++) {
 	    nounSynset = (NounSynset) (synsets[i]);
 	    hyponyms = nounSynset.getHyponyms();
@@ -71,6 +73,22 @@ public class WordNetUtil {
     public String[] getBaseForm(String in) {
 	if (_database == null)
 	    throw new RuntimeException("WordNet Database Error");
-	return _database.getBaseFormCandidates(in, SynsetType.NOUN);
+	String forms[] = _database.getBaseFormCandidates(in, SynsetType.NOUN);
+	if(forms.length==0 && in.toUpperCase().equals(in)){
+	    Synset[] synsets = _database.getSynsets(in,SynsetType.NOUN);
+	    for (Synset synset : synsets) {
+		if(synset instanceof NounSynset){
+		    NounSynset ns = (NounSynset) synset;
+		    String[] fs = ns.getWordForms();
+		    if(fs!=null && fs.length>0){
+			for (String s : fs) {
+			    if(!s.equalsIgnoreCase(in))
+				return new String[]{s};
+			}
+		    }
+		}
+	    }
+	}
+	return forms;
     }
 }
