@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.StringTokenizer;
 
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -23,6 +24,8 @@ import com.minetool.tax.categorizer.ITaxCategorizer;
 import com.minetool.tax.model.TaxNode;
 import com.minetool.tax.model.TaxRoot;
 import com.minetool.tax.model.data.ACMContentHandler;
+import com.minetool.wordnet.categorizer.RETokenizer;
+import com.minetool.wordnet.categorizer.WordNetUtil;
 
 /**
  * @author HuYao
@@ -32,6 +35,8 @@ import com.minetool.tax.model.data.ACMContentHandler;
 public class ACMTaxCategorizer implements ITaxCategorizer {
     
     private final HashMap<String, TaxNode> _mapping;
+    
+    private final HashMap<String, TaxNode> _trimMapping;
     
     /**
      * Constructor for ACMTaxCategorizer.
@@ -55,6 +60,25 @@ public class ACMTaxCategorizer implements ITaxCategorizer {
 	parser.parse(source);
 	TaxRoot root = contentHandler.getRootModel();
 	this._mapping = root.getMapping();
+	
+	this._trimMapping = new HashMap<String, TaxNode>();
+	
+	Set<String> keys = this._mapping.keySet();
+	for (String key : keys) {
+	    RETokenizer st = new RETokenizer(key, "\\b\\w+\'*\\w*\\b", false);
+	    ArrayList<String> tkList = new ArrayList<String>();
+	    StringBuilder sb= new StringBuilder();
+	    while (st.hasNext()) {
+		String tok = st.next();
+		String[] baseforms = WordNetUtil.getInstance().getBaseForm(tok);
+		if(baseforms!=null && baseforms.length>0){
+		    tok = baseforms[0];
+		}
+		tkList.add(tok);
+		sb.append(tok+" ");
+	    }
+	    this._trimMapping.put(sb.toString(), this._mapping.get(key));
+	}
     }
 
     /* (non-Javadoc)
@@ -90,6 +114,24 @@ public class ACMTaxCategorizer implements ITaxCategorizer {
 	    }
 	}
 	return dataMap;
+    }
+
+    @Override
+    public List<String> find1WordMatch(String word) {
+	List<String> result= new ArrayList<String>();
+	if(this._trimMapping==null) return null;
+	Set<String> keys = this._trimMapping.keySet();
+	for (String key : keys) {
+	    StringTokenizer st = new StringTokenizer(key);
+	    while(st.hasMoreTokens()){
+		String tok = st.nextToken();
+		if(tok.equalsIgnoreCase(word)){
+		    result.add(this._trimMapping.get(key).getCompletePath());
+		    break;
+		}
+	    }
+	}
+	return result;
     }
 
 }

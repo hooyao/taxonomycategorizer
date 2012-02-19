@@ -21,5 +21,7 @@ public interface ITaxCategorizer {
      * @return HashMap<String,List<String>> * @see com.minetool.tax.categorizer.ITaxCategorizer#categorizeTaxList(List<String>, int) */
     HashMap<String, List<String>> categorizeTaxList(List<String> taxList,
 	    int depth);
+    
+    List<String> find1WordMatch(String in);
 
 }
