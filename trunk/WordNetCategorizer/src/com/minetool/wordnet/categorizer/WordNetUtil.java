@@ -91,4 +91,11 @@ public class WordNetUtil {
 	}
 	return forms;
     }
+    
+    public boolean isProperNoun(String in) {
+	if (_database == null)
+	    throw new RuntimeException("WordNet Database Error");
+	Synset[] synsets = _database.getSynsets(in, SynsetType.NOUN);
+	return synsets.length > 0;
+    }
 }
